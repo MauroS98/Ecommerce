@@ -1,4 +1,4 @@
-## Ecommerce: grupo_4
+# Ecommerce: grupo_4
 
 Integrantes:
 *Barrios, Samuel.
@@ -7,14 +7,14 @@ Integrantes:
 *Maciel, Lucas.
 *Suarez, Mauro.
 
-# Quantum PC
+## Quantum PC
 
 La temática elegida para el sitio, es una plataforma que ofrece la venta de Hardware y 
 periféricos de PC, de todas las gamas, desde computadoras de oficina, hasta PCs de alto 
 rendimiento para los más exigentes. El publico objetivo es diverso, desde entusiastas o 
 estudiantes hasta gamers ávidos.
 
-# Listado de sitios refetentes:
+## Listado de sitios referentes:
 
 compragamer.com
 www.gezatek.com.ar
