@@ -1,0 +1,33 @@
+.main-register-registro{background-image: url("/200w.webp");margin-top: 35%;padding-top: 38%;}
+.form-registro {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.registre-registro {}
+
+.subtitulo{
+    color: white;
+    text-align: center;
+}
+
+.user{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 18px;
+}
+.mail{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 19px;
+}
+
+.key{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 3px; 
+}
+.input-registro {text-align: center;}
+
+.usuario-boton-registro{}
+.boton-registro {}

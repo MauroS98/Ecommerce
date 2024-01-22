@@ -1,0 +1,33 @@
+.main-login{
+    background-image: url("/200w.webp");
+    margin-top: 42%;
+    padding-top: 20%;
+}
+
+.div-logo-login{}
+
+.logo-login{
+    border-radius: 50%;
+    width: 17%;
+    margin-left: 42%;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+}
+
+.registre-login{}
+
+.usuario-login{}
+
+.input-login{
+    text-align: center;
+}
+
+.usuario-boton-login{margin-left: 26%;/* background-color: aquamarine; */}
+
+.input-login-boton{background-color: blue;}
+
+.boton-login{}
+
