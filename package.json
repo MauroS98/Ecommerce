@@ -1,8 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "Integrantes:\r *Barrios, Samuel.\r *Castillo, Gaston.\r *Cotelo, Matias.\r *Maciel, Lucas.\r *Suarez, Mauro.",
   "main": "app.js",
+=======
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "grupo_4_quantumpc",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+>>>>>>> develop
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
