@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-
 const express= require("express");
-const app= express()
+const app= express();
 const path= require("path");
 const port = 3040;
 app.use(express.static("public"))("/",(req,res)=>{

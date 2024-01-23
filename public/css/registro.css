@@ -1,0 +1,109 @@
+.main-register-registro{
+    /* background-image: url("/200w\ \(5\).webp"); */
+    /* margin-top: 41%; */
+    padding-top: 2%;
+    background-color: #1f2124;
+}
+header{
+    width: 100%;
+    height: 43%;
+    border:solid 3px blue
+}
+.form-registro {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* .registre-registro {
+} */
+
+.subtitulo{
+    color: white;
+    text-align: center;
+}
+
+.user{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 19px;
+}
+.mail{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 3px;
+}
+
+.key{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 3px; 
+}
+.input-registro {text-align: center;}
+
+/* .usuario-boton-registro{
+
+}
+.boton-registro { } */
+
+/* TABLET */
+@media  (min-width: 226px ) {
+
+    .main-register-registro{}
+
+    .form-registro {
+    }
+
+    /* .registre-registro {
+    } */
+    
+    .subtitulo{
+    }
+    
+    .user{
+    }
+    .mail{
+    }
+    
+    .key{ 
+    }
+    .input-registro {}
+    
+    /* .usuario-boton-registro{
+    
+    }
+    .boton-registro { } */ 
+}
+
+/* PORTATIL DESTOP */
+@media  (min-width: 769px ) {
+
+.main-register-registro{}
+
+.form-registro {
+
+}
+/* .registre-registro {
+} */
+
+.subtitulo{
+
+}
+
+.user{
+
+}
+.mail{
+
+}
+
+.key{
+
+}
+.input-registro {}
+
+/* .usuario-boton-registro{
+
+}
+.boton-registro { } */
+}
