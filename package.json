@@ -3,7 +3,7 @@
     "express": "^4.18.2"
   },
   "name": "grupo_4_quantumpc",
-  "description": "",
+  "description": "Integrantes:\r *Barrios, Samuel.\r *Castillo, Gaston.\r *Cotelo, Matias.\r *Maciel, Lucas.\r *Suarez, Mauro.",
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {},
