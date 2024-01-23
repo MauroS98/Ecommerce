@@ -1,10 +1,15 @@
 .main-login{
-    background-image: url("/200w.webp");
-    margin-top: 42%;
+    /* background-image: url("/200w\ \(5\).webp"); */
     padding-top: 20%;
+    background-color: #1F2124;
+}
+header{
+width: 100%;
+height: 43%;
+border:solid 3px blue
 }
 
-.div-logo-login{}
+/* .div-logo-login{ } */
 
 .logo-login{
     border-radius: 50%;
@@ -17,17 +22,33 @@
     justify-content: center;
 }
 
-.registre-login{}
+/* .registre-login{ }
 
-.usuario-login{}
+.usuario-login{ } */
 
 .input-login{
     text-align: center;
+}
+.user{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 18px;
+}
+.mail{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 18px;
+}
+
+.key{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 3px; 
 }
 
 .usuario-boton-login{margin-left: 26%;/* background-color: aquamarine; */}
 
 .input-login-boton{background-color: blue;}
 
-.boton-login{}
+/* .boton-login{} */
 
