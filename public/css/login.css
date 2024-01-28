@@ -1,7 +1,8 @@
 .main-login{
-    /* background-image: url("/200w\ \(5\).webp"); */
-    padding-top: 20%;
-    background-color: #1F2124;
+    background-image: url("/8d4bfe_92a2886a9260408e8f22151008c8c788~mv2.gif");
+    padding-top: 10%;
+    width: 100%;
+    padding: 3px;
 }
 header{
 width: 100%;
@@ -13,13 +14,15 @@ border:solid 3px blue
 
 .logo-login{
     border-radius: 50%;
-    width: 17%;
-    margin-left: 42%;
+    width: 23%;
+    margin-left: 40%;
+    margin-top: 9px;
 }
 
 .form-login{
     display: flex;
     justify-content: center;
+    width: 112px;
 }
 
 /* .registre-login{ }
@@ -28,6 +31,7 @@ border:solid 3px blue
 
 .input-login{
     text-align: center;
+    width: 263%;
 }
 .user{
     position: absolute;
@@ -48,7 +52,120 @@ border:solid 3px blue
 
 .usuario-boton-login{margin-left: 26%;/* background-color: aquamarine; */}
 
-.input-login-boton{background-color: blue;}
+.input-login-boton{background-color: #35c963;margin-left: 86%;}
 
 /* .boton-login{} */
+/* TABLET */
+@media  (min-width: 426px ) {
+
+    .main-login{
+    }
+
+    .div-logo-login{
+    }
+
+    .subtitulo{
+    } 
+    
+    .form-login{
+        display: flex;
+        justify-content: center;
+        width: 46%;
+    }
+   
+    .fa-solid .fa-envelope{
+    }
+    
+    .registre-login{ 
+    }
+    
+    
+    .usuario-login{
+    
+    }
+    .input-login{
+        text-align: center;
+        width: 331%;
+    }
+    .key{
+
+    }
+    .usuario-boton-login{
+
+    }
+    .usuario-login{
+
+    }
+    .input-login-boton{
+
+margin-left: 158%;
+
+}
+. .input-login-boton:hover{
+
+}
+    .boton-login { 
+
+    } 
+
+}
+/* PORTATIL DESkTOP */
+@media  (min-width: 769px ) {
+
+     .main-login{
+        
+    }
+
+    .div-logo-login{
+    }
+
+    .subtitulo{
+    } 
+    
+    .form-login{
+        display: flex;
+        justify-content: center;
+        width: 34%;
+    }
+   
+    .fa-solid .fa-envelope{
+    }
+    
+    .registre-login{ 
+    }
+    .input-registro {}
+    
+    .usuario-login{
+    
+    }
+    .input-login{width: 471%;}
+    .key{
+
+    }
+    .usuario-boton-login{
+
+    }
+    .usuario-login{
+
+}
+.input-login-boton{
+        
+margin-left: 254%;
+
+    }
+.boton-login:hover { }
+
+    .boton-login {
+
+       
+} 
+
+
+}   
+    
+   
+
+  
+ 
+
 
