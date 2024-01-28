@@ -1,78 +1,104 @@
 .main-register-registro{
-     background-image: url("/200w\ \(5\).webp"); 
-   
-    padding-top: 2%;
-    background-color: #1f2124;
-}
-header{
+    background-image: url("/132c0117782c8532eabd63d6a30fc82b.gif");
     width: 100%;
-    height: 43%;
-    border:solid 3px blue
+    padding: 3px;
+    }
+header{
+width: 100%;
+height: 43%;
+border:solid 3px blue
 }
-.form-registro {display: flex
-    ;flex-direction: column;
-    margin-left: 5%;
-    margin-right: 24%;
-}
+.form-registro {display: flex;flex-direction: column;margin-left: 7%;margin-right: 27%;}
 
  .registre-registro {
 } 
 
-.subtitulo{
-    color: white;
-    text-align: center;
-}
+.subtitulo{color: white;text-align: center;width: 100%;}
 
 .user{
-    position: absolute;
-    margin-left: 1%;
-    margin-top: 19px;
+position: absolute;
+margin-left: 1%;
+margin-top: 19px;
 }
-.mail{
-    position: absolute;
-    margin-left: 1%;
-    margin-top: 18px;
-}
+.mail-registro{position: absolute;margin-left: 1%;margin-top: 3px;}
 
 .key{
-    position: absolute;
-    margin-left: 1%;
-    margin-top: 3px; 
+position: absolute;
+margin-left: 1%;
+margin-top: 3px; 
 }
-.input-registro {text-align: center;width: 125%;margin-left: 0%;}
+.input-registro {text-align: center;width: 125%;margin-left: 0%;margin-bottom: 19px;}
 
 .usuario-boton-registro{
+ 
 
 }
-.boton-registro { } 
+.input-registro-boton{
+
+background-color: #3fd375;
+
+color:white;
+
+margin-left: 94px;
+
+margin-top: 14px;
+}
+.input-registro-boton:hover{
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+.boton-registro { 
+    
+
+} 
 
 /* TABLET */
 @media  (min-width: 426px ) {
 
-    .main-register-registro{}
+.main-register-registro{}
 
-    .form-registro {
+.form-registro {
+    margin-left: 20%;
+    margin-right: 30%;
     }
 
-    .registre-registro {
+.registre-registro {
     } 
     
-    .subtitulo{
+.subtitulo{
     }
     
-    .user{
+.user{
     }
-    .mail{
+.mail{
     }
     
-    .key{ 
+.key{ 
     }
-    .input-registro {}
+.input-registro-boton{
+margin-left: 126px;
+width: 225px;
+}
     
-    .usuario-boton-registro{
-    
+.input-registro-boton:hover{
+
+
+}
+.usuario-boton-registro{
+       
+       
     }
-    .boton-registro { } 
+.usuario-boton-registro:hover{
+    
+ 
+    }
+.boton-registro { 
+       
+    } 
+
+.boton-registro:hover{
+
+    }
 }
 
 /* PORTATIL DESkTOP */
@@ -82,12 +108,18 @@ header{
 
 .form-registro {
 
+margin-left: 9%;
+
+margin-right: 31%;
+
+/* width: 67%; */
 }
  .registre-registro {
 } 
 
 .subtitulo{
 
+width: 95%;
 }
 
 .user{
@@ -100,10 +132,15 @@ header{
 .key{
 
 }
-.input-registro {}
+.input-registro-boton{
+    width: 53%;
+    margin-left: 39%;
+    margin-top: 6%;
+}
 
- .usuario-boton-registro{
+.usuario-boton-registro{
 
 }
 .boton-registro { } 
+
 }
