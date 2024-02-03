@@ -1,5 +1,7 @@
 .main-register-registro{
-    background-image: url("/132c0117782c8532eabd63d6a30fc82b.gif");
+   /* background-image: url("/132c0117782c8532eabd63d6a30fc82b.gif");*/
+   background: rgb(4,13,14);
+background: linear-gradient(143deg, rgba(4,13,14,1) 16%, rgba(15,59,67,1) 29%, rgba(24,95,109,1) 39%, rgba(34,138,157,1) 60%);
     width: 100%;
     padding: 3px;
     }
@@ -8,12 +10,22 @@ width: 100%;
 height: 43%;
 border:solid 3px blue
 }
-.form-registro {display: flex;flex-direction: column;margin-left: 7%;margin-right: 27%;}
+.div-form-registro {
+display: flex;
+flex-direction: column;
+margin-left: 7%;
+margin-right: 27%;}
 
- .registre-registro {
+.form-registro{
+
+}
+.registre-registro {
 } 
 
-.subtitulo{color: white;text-align: center;width: 100%;}
+.subtitulo{
+color: white;
+text-align: center;
+width: 100%;}
 
 .user{
 position: absolute;
@@ -76,8 +88,10 @@ margin-top: 14px;
 .key{ 
     }
 .input-registro-boton{
-margin-left: 126px;
-width: 225px;
+
+margin-left: 126px;
+
+width: 225px;
 }
     
 .input-registro-boton:hover{
