@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    background-image: url("/istockphoto-1369269456-1024x1024.jpg");}
+    /* background: linear-gradient(143deg, rgba(4,13,14,1) 16%, rgba(15,59,67,1) 29%, rgba(24,95,109,1) 39%, rgba(34,138,157,1) 60%);
+} */
 
 .logo-login {
     width: 25%;
@@ -19,46 +21,72 @@
     gap: 15px;
     align-items: center;
 }
-.mail-login {
-    width: 89%;
-}
-.mail-login input{
-    border-radius: 26px 39px 41px 29px;
-    width: 68%;  position: relative;
+
+.div-general-login {
+    position: relative;
+    width: 81%;
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
 }
 
-.fa-envelope {
+#fa-envelope-login {
     position: absolute;
-    margin-left: 9px;
-    margin-top: 2px;
+    margin-left: 12px;
+    margin-top: 4px;
 }
 .input-login {
+    box-shadow: 10px 12px 10px;
     border-radius: 26px 39px 41px 29px;
-    width: 68%;
-    margin-left: 9px;
+    width: 87%;
+    margin-left: 2px;
     margin-top: 2px;
+    text-align: center;
+}
+.div-key-login{
+    width: 92%;
+    margin-left: 5px;;
+    
 }
 .key-login {
-    width: 89%;
-    position: relative;
+    width: 94%;
+    border-radius: 26px 39px 41px 29px;
+    box-shadow: 10px 12px 10px;
+    text-align: center;
 }
-.fa-key {
-    position:absolute;
-    margin-left: 9px;
+#fa-key-login {
+    position: absolute;
+    margin-left: 10px;
     margin-top: 2px;
 }
-.registre-login {
-}
-.usuario-boton-login {
-}
-.input-login-boton {
-}
 
+.usuario-boton-login {
+    padding: 2px;
+    color: #000;
+}
+.boton-login{
+    cursor: pointer;
+    border: solid 3px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-radius: 11px 11px 11px 11px;
+    background: radial-gradient(circle, rgba(63,221,251,0.9500175070028011) 0%,
+     rgba(103,108,199,1) 100%);
+     margin-bottom: 12px;
+     margin-left: 27%;
+     box-shadow: 10px 12px 10px;
+     background: linear-gradient(55deg, rgba(0,212,255,1) 41%, rgb(9 9 121 / 65%) 69%, rgb(2 0 36 / 37%) 100%);
+}
 /* TABLET */
 @media (min-width: 426px) {
    
 }
 /* PORTATIL DESkTOP */
 @media (min-width: 769px) {
-
+    .logo-login {
+        width: 20%;
+        border-radius: 50%;
+    }
 }
