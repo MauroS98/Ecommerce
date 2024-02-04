@@ -26,5 +26,3 @@ Los sitios fueron elegidos con criterio de ofrecer el mismo servicio al que nues
 apunta, ya que también apuntan al mismo publico o clientes, para observar sus diferentes 
 estéticas y estructuras de pagina y ver que funcionalidades tienen implementadas, entre ellas 
 hay un sitio del extranjero, para no quedarnos solo con referencia nacional.
-
-
