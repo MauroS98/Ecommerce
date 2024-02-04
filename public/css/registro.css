@@ -1,7 +1,7 @@
 .main-register-registro {
     background: linear-gradient(22deg, rgba(141, 173, 186, 1) 41%,
      rgba(9, 9, 121, 1) 69%, rgba(2, 0, 36, 1) 100%);
-    background-image: url("/GIF\ cubos\ en\ ciberespacio.gif");
+    /* background-image: url("/GIF\ cubos\ en\ ciberespacio.gif"); */
     width: 100%;
     padding: 3px;
 }
