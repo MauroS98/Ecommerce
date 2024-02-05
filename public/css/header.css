@@ -40,9 +40,12 @@ body {
     margin-right: -62%;
 }
 .search-header{
-border: none;
-border-radius: 3px;
-width: 96%;
+
+border: none;
+
+border-radius: 3px;
+
+width: 96%;
 }
 
 
@@ -54,11 +57,16 @@ body {
     cursor: pointer;
 }
 .action-button {
-    width: 31%;
-    font-size: 17px;
-    margin-left: 30px;
-    color: var(--celeste);
-    /* display: none; */
+    
+width: 31%;
+    
+font-size: 17px;
+    
+margin-left: 30px;
+    
+color: var(--celeste);
+    
+/* display: none; */
 }
 
 .product-categories {
@@ -74,7 +82,7 @@ body {
     margin-top: 10px;
 }
 .user-actions{
-    display: flex;
+    display: flex ;
     justify-content: space-evenly;
 }
 
