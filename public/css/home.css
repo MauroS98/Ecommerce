@@ -82,6 +82,8 @@ main {
 .product-info h3 {
     color: #d9d9d9;
     margin: 0px;
+    font-size: 14px;
+    text-align: center;
 }
 
 
@@ -102,6 +104,9 @@ main {
     .product-card {
         width: 32%;
     }
+    .product-card:hover {
+        box-shadow: 0px 0px 10px rgb(75, 75, 75);
+    }
     
     .product-card img {
     }
@@ -110,6 +115,8 @@ main {
     }
     
     .product-info h3 {
+        font-size: 14px;
+        text-align: center;
     }
 }
 
@@ -132,6 +139,10 @@ main {
         max-width: none;
         height: 30vh;
     }
+
+    .product-card:hover {
+        box-shadow: 0px 0px 10px rgb(75, 75, 75);
+    }
     
     .product-card img {
     }
@@ -140,5 +151,7 @@ main {
     }
     
     .product-info h3 {
+        font-size: 18px;
+        text-align: center
     }
 }
