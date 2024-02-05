@@ -26,4 +26,8 @@ app.get("/registro",(req,res)=>{
     res.sendFile(path.join(__dirname,"./views/registro.html"))
 })
 
+app.get("/carrito",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./views/carrito.html"))
+})
+
 app.listen(port,()=>(console.log(`corriendo puerto http://localhost:${port}`)))
