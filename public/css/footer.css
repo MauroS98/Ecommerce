@@ -118,12 +118,13 @@
    }
   
   .footer-links h4 {
-      font-size: 18px;
+      font-size: 16px;
       color: var(--blanco);
-      margin-bottom: 0px;
       font-weight: 600;
-      padding-bottom: 7px;
+      padding-bottom: 9px;
       display: inline-block;
+      font-family: var(--family-inter);
+      margin-left: 22%;
   }
   
   .footer-links ul li a{

@@ -82,8 +82,8 @@ main {
 .product-info h3 {
     color: #d9d9d9;
     margin: 0px;
+    font-family: var(--family-sans);
     font-size: 14px;
-    text-align: center;
 }
 
 
