@@ -5,8 +5,8 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'home.css';
-@import url(login.css);
-@import url(registro.css);
+@import 'registro.css';
+@import 'login.css';
 @import 'carrito.css';
 @import 'main.css';
 @import 'ProductDetail.css'
