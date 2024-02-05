@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum PC</title>
+  <link rel="stylesheet" href="./css/carrito.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="img/Logo.jpg" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar productos">
+      <button class="search-button"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="user-actions">
+      <button class="action-button"><i class="fas fa-user"></i>Ingresar</button>
+      <button class="action-button"><i class="fas fa-cart-shopping"></i>Registro</button>
+    </div>    
+  </header>
+  <nav class="product-categories">
+    <ul>
+      <li><a href="#">PC Armadas </a></li>
+      <li><a href="#">Hardware</a></li>
+      <li><a href="#">Periféricos</a></li>
+      <li><a href="#">Notebooks</a></li>
+      <li><a href="#">Ver Todo</a></li>
+    </ul>
+  </nav>
+  <main class="main-cart">
+    <div class="products-cart">
+      <article class="product-cart">
+        <img src="/images/product-cart-1.png" alt="image-cart">
+        <div class="product-name">
+          <h3>Placa de Video Asus Rtx 3050 8Gb</h3>
+        </div>
+        <div class="product-quantity">
+          <div class="quantity-container">
+            <button class="restar">-</button>
+            <span class="numero">1</span>
+            <button class="sumar">+</button>
+          </div>
+        </div>
+        <div class="product-price">
+          <h3>$558.600</h3>
+        </div>
+      </article>
+      <article class="product-cart">
+        <img src="/images/product-cart-2.png" alt="image-cart">
+        <div class="product-name">
+          <h3>Procesador Intel Core i5 11600K 49GHz</h3>
+        </div>
+        <div class="product-quantity">
+          <div class="quantity-container">
+            <button class="restar">-</button>
+            <span class="numero">1</span>
+            <button class="sumar">+</button>
+          </div>
+        </div>
+        <div class="product-price">
+          <h3>$264.900</h3>
+        </div>
+      </article>
+      <article class="product-cart">
+        <img src="/images/product-cart-3.png" alt="image-cart">
+        <div class="product-name">
+          <h3>Mother Asus Rog Strix B550-A</h3>
+        </div>
+        <div class="product-quantity">
+          <div class="quantity-container">
+            <button class="restar">-</button>
+            <span class="numero">1</span>
+            <button class="sumar">+</button>
+          </div>
+        </div>
+        <div class="product-price">
+          <h3>$195.000</h3>
+        </div>
+      </article>
+    </div>
+    <div class="buy-container">
+      <div class="pay-methods">
+        <label>
+            <input type="radio" name="medios-de-pago" value="Depósito o transferencia bancaria">
+            Depósito o transferencia bancaria
+        </label>
+        <label>
+            <input type="radio" name="medios-de-pago" value="Mercado Pago-PagoFacil-RapiPago">
+            Mercado Pago-PagoFacil-RapiPago
+        </label>
+        <label>
+            <input type="radio" name="medios-de-pago" value="Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!">
+            Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!
+        </label>
+    </div>
+    
+      <div class="total-price">
+        <h3>Total: <span id="total-amount">0</span></h3>
+      </div>
+      <div class="buy-cart">
+        <input type="button" value="Continuar">
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const products = document.querySelectorAll('.product-cart');
+        const totalAmountElement = document.getElementById('total-amount');
+
+        function updateTotalAmount() {
+          let totalAmount = 0;
+
+          products.forEach(product => {
+            const numeroElemento = product.querySelector('.numero');
+            const productPriceElement = product.querySelector('.product-price h3');
+
+            const cantidad = parseInt(numeroElemento.textContent, 10);
+            const precioUnitario = parseFloat(productPriceElement.textContent.replace('$', '').replace('.', ''));
+
+            totalAmount += cantidad * precioUnitario;
+          });
+
+          totalAmountElement.textContent = totalAmount.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' });
+        }
+
+        products.forEach(product => {
+          const numeroElemento = product.querySelector('.numero');
+          const sumarBoton = product.querySelector('.sumar');
+          const restarBoton = product.querySelector('.restar');
+
+          let numero = 1;
+
+          sumarBoton.addEventListener("click", function () {
+            numero++;
+            numeroElemento.textContent = numero;
+            updateTotalAmount();
+          });
+
+          restarBoton.addEventListener("click", function () {
+            numero = Math.max(1, numero - 1);
+            numeroElemento.textContent = numero;
+            updateTotalAmount();
+          });
+        });
+        updateTotalAmount();
+      });
+    </script>
+  </main>
+  <footer class="main-footer">
+    FOOTER
+  </footer>
+</body>
+
+</html>
