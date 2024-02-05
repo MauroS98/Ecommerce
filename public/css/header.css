@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-color: rgb(32 33 37);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border: 2px solid hsl(189.57deg 56.1% 24.12%); 
+    border-radius: 5px; 
+    width: 330px;
+
+    
+}
+.search-bar input {
+    padding: 8px;
+    margin-right: 0; 
+    border: none; 
+    border-radius: 3px; 
+    width: 330px;
+}
+
+
+.search-bar button {
+    background-color: hsl(189.57deg 56.1% 24.12%);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+ 
+}
+.action-button {
+    background-color: hsl(189.57deg 56.1% 24.12%);
+    color: white;
+    padding: 8px 15px;
+    border: 2px; 
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.product-categories {
+    background-color:rgb(16 17 19);
+    color: white;
+    text-align: center;
+    
+    
+}
+.product-categories-container {
+    background-color: rgb(32, 33, 37); 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.product-categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+.product-categories li {
+    margin-right: 20px;
+    padding: 0 10px; 
+    border-right: 3px solid hsl(189.57deg 56.1% 24.12%);
+}
+.product-categories a {
+    color: white;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px; 
+    margin: 0 5px; 
+}
+
+    @media (min-width: 425px) {
+       
+    
+        .main-header {
+            justify-content: space-between;
+            padding: 10px; 
+        }
+    
+        .logo-container img {
+            margin-left: 10px;
+            margin-right: 10px;
+            max-height: 40px; 
+        }
+    
+        .search-bar {
+            position: relative;
+        }
+    
+        .product-categories {
+            justify-content: space-between;
+        }
+    
+        .product-categories li {
+            margin-right: 10px;
+        }
+    
+        .product-categories a {
+            padding: 5px 10px;
+        }
+    }
+
+
+ @media  (max-width: 768px) {
+
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .product-categories{
+            justify-content: center;
+    }
+ }
