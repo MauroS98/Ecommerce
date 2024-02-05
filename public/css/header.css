@@ -29,30 +29,26 @@ body {
     
 
 .search-bar {
-    position: relative;
-    /* width: 65%; */
+    position: absolute;
     display: flex;
-    /* justify-content:space-around; */
     border: 2px solid hsl(189.57deg 56.1% 24.12%);
     border-radius: 5px;
-    margin-left: 0%;
-    margin-top: 86px;
-    margin-right: -62%;
+    margin-left: 2%;
+    margin-top: 65px;
+    /* margin-right: -65%; */
+    gap: 0px;
 }
 .search-header{
-
-border: none;
-
-border-radius: 3px;
-
-width: 96%;
+border: none;
+border-radius: 3px;
+width: 94%;
 }
 
 
 .search-bar button {
     background-color: hsl(189.57deg 56.1% 24.12%);
     color: white;
-    /* padding: 8px 15px; */
+   
     border: none;
     cursor: pointer;
 }
@@ -66,7 +62,7 @@ margin-left: 30px;
     
 color: var(--celeste);
     
-/* display: none; */
+
 }
 
 .product-categories {
@@ -121,6 +117,8 @@ color: var(--celeste);
         }
         .titulo-header{
             font-family: var(--family-fugazOne);
+            display: inline;
+            width: 77%;
         }
         .search-bar {
             position: relative;

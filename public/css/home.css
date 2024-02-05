@@ -87,7 +87,7 @@ main {
 }
 
 
-@media (min-width: 361px) {
+@media (min-width: 426px) {
     .carrusel-banner {
 
     }
@@ -115,7 +115,7 @@ main {
     }
     
     .product-info h3 {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
     }
 }
@@ -151,7 +151,7 @@ main {
     }
     
     .product-info h3 {
-        font-size: 18px;
+        font-size: 12px;
         text-align: center
     }
 }
