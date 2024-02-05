@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Quantum PC</title>
 </head>
 
@@ -22,13 +22,14 @@
             <input type="text" placeholder="Buscar productos">
             <button class="search-button"><i class="fas fa-search"></i></button>
         </div>
-        <div class="user-actions">
-            <a href="/login">
-              <button class="action-button"><i class="fa-solid fa-user"></i>Ingresar</button>
-            </a>
-            <a href="/registro"><button class="action-button"><i class="fa-solid fa-cart-shopping"></i>Registro</button>
-            </a>  
-          </div>
+     <div class="user-actions">
+          <a href="/login">
+            <button id="user-button"><i id="usuario" class="fa-solid fa-user"></i>Ingresar</button>
+          </a>
+          <a href="/registro">
+            <button id="shopping-button"><i class="fa-solid fa-cart-shopping"></i>Registro</button>
+          </a>  
+        </div>
     </header>
     <nav class="product-categories">
         <ul>
