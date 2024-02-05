@@ -12,11 +12,13 @@
     --family-inter:'Inter', sans-serif;
     --family-sans:'DM Sans', sans-serif;
     --family-fugazOne:'Fugaz One', sans-serif;
+   
  }
 
- 
- *{
+
+*{
     list-style: none;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
