@@ -4,9 +4,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/istockphoto-1369269456-1024x1024.jpg");}
-    /* background: linear-gradient(143deg, rgba(4,13,14,1) 16%, rgba(15,59,67,1) 29%, rgba(24,95,109,1) 39%, rgba(34,138,157,1) 60%);
-} */
+    background: linear-gradient(143deg, rgba(4,13,14,1) 16%, rgba(15,59,67,1) 29%, rgba(24,95,109,1) 39%, rgba(34,138,157,1) 60%);
+    }
+   
+
 
 .logo-login {
     width: 25%;
