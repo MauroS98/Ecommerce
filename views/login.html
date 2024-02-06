@@ -13,7 +13,7 @@
 </head>
 <header class="main-header">
     <div class="logo-container">
-        <img src="images/Logo.jpg" alt="Logo">
+        <img src="/images/Logo.jpg" alt="Logo">
     </div>
     <div class="search-bar">
         <input type="text" placeholder="Buscar productos">
@@ -28,29 +28,80 @@
 </header>
 
 <body>
-    <main class="main-login">
-        <img class="logo-login" src="/Logo.jpg" alt=" logo">
-        <h2 class="subtitulo">iniciar sesion</h2>
-
-
-        <form class="form-login" action="/" method="POST">
-            <div class="div-general-login">
-
-                <i id="fa-envelope-login" class=" fa-solid fa-envelope"></i>
-                <input class="input-login" type="email" placeholder="E-mail" name="email" required>
-
-
-                <div class="div-key-login">
-                    <i id="fa-key-login" class="fa-solid fa-key"></i>
-                    <input class="key-login" type="Password" placeholder="Password" name="Password" required>
+    <main>
+        <h2 class="products-tittle">PRODUCTOS DESTACADOS</h2>
+        <div class="products-cards">
+            <article class="product-card">
+                <div class="img-content">
+                    <img src="/images/product-img-1.png" alt="img-producto">
                 </div>
-
-                <div class="boton-login">
-                    <butoon class="usuario-boton-login" type="submit" href="/">INGRESAR</butoon>
+                <div class="product-info">
+                    <h3>Gigabyte X399 AORUS Gaming 7</h3>
+                    <h3>$240.000</h3>
                 </div>
-            </div>
-        </form>
-
+            </article>
+            <article class="product-card">
+                <div class="img-content">
+                    <img src="/images/product-img-2.png" alt="img-producto">
+                </div>
+                <div class="product-info">
+                    <h3>Gigabyte GeForce GTX 1080 G1</h3>
+                    <h3>$220.000</h3>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="img-content">
+                    <img src="/images/product-img-3.png" alt="img-producto">
+                </div>
+                <div class="product-info">
+                    <h3>Memorias RAM Vengeance PRO</h3>
+                    <h3>$120.000</h3>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="img-content">
+                    <img src="/images/product-img-4.png" alt="img-producto">
+                </div>
+                <div class="product-info">
+                    <h3>Gabinete Cooler Master</h3>
+                    <h3>$60.000</h3>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="img-content">
+                    <img src="/images/product-img-5.png" alt="img-producto">
+                </div>
+                <div class="product-info">
+                    <h3>Disco Duro HDD WD 1TB</h3>
+                    <h3>$15.000</h3>
+                </div>
+            </article>
+            <section class="main-login">
+               
+                <h2 class="subtitulo">iniciar sesion</h2>
+        
+        
+                <form class="form-login" action="/" method="POST">
+                    <div class="div-general-login">
+        
+                        <i id="fa-envelope-login" class=" fa-solid fa-envelope"></i>
+                        <input class="input-login" type="email" placeholder="E-mail" name="email" required>
+        
+        
+                        <div class="div-key-login">
+                            <i id="fa-key-login" class="fa-solid fa-key"></i>
+                            <input class="key-login" type="Password" placeholder="Password" name="Password" required>
+                        </div>
+        
+                        <div class="boton-login">
+                            <butoon class="usuario-boton-login" type="submit" href="/">INGRESAR</butoon>
+                        </div>
+                       <a href="./registro"><h3 class="sub-title">REGISTRATE AQUI</h3></a>
+                    </div>
+                </form>
+        
+            </section>
+        </div>
     </main>
 </body>
 
