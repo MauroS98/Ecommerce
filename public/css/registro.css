@@ -112,12 +112,18 @@ margin-top: 3%;
     align-items: center;
     }
 .div-general-registre {
-display: flex;
-flex-direction: column;
-/* flex-wrap: nowrap; */
-/* flex-wrap: nowrap; */
-align-items: center;
-width: 53%;
+
+display: flex;
+
+flex-direction: column;
+
+/* flex-wrap: nowrap; */
+
+/* flex-wrap: nowrap; */
+
+align-items: center;
+
+width: 53%;
 }
 
 
@@ -137,8 +143,10 @@ margin-top: 3%;
     margin-left: 42%;
     }
 #iUser{
-margin-top: 10px;
-margin-left: 12px;
+
+margin-top: 10px;
+
+margin-left: 12px;
 }
 #ienvelope-resgistre{
     margin-top: 10px;
@@ -171,10 +179,14 @@ margin-top: 3%;
     }
 .div_imput_conten{}
 .input-registre {
-border-radius: 5px 5px 5px 5px;
-width: 96%;
-padding: 1px;
-box-shadow: 19px 11px 1px 1px;
+
+border-radius: 5px 5px 5px 5px;
+
+width: 96%;
+
+padding: 1px;
+
+box-shadow: 19px 11px 1px 1px;
 }
 .div-key-registre {
     }
@@ -197,8 +209,10 @@ margin-top: 3%;
     font-size: 10px;
     }   
 #iUser{
-margin-top: 10px;
-margin-left: 11px;
+
+margin-top: 10px;
+
+margin-left: 11px;
 }
 #ienvelope-resgistre{
     margin-top: 10px;

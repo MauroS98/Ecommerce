@@ -166,7 +166,8 @@ margin-left: 39%;
     }
     
     #fa-envelope-login {
-       margin-left: 33px;
+       
+margin-left: 33px;
     }
     .input-login {
        
@@ -181,8 +182,10 @@ padding: 3px;
 padding: 3px;
     }
     #fa-key-login {
-  margin-left: 30px;
-  }
+  
+margin-left: 30px;
+  
+}
     
     .usuario-boton-login{
         background: var(--celeste);
