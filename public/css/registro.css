@@ -1,29 +1,71 @@
-.main-register-registro {background-color: white;}
+.main-register-registro {
+    background-color: white;
+}
 .subtitulo {
-    margin-left: 29%;
+    margin-left: 32%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: white;
 }
 .form-registre {
     display: flex;
     justify-content: space-around;
 }
-.div-general-registre {background: var(--grisOscuro);width: 70%;border: solid;display: flex;flex-direction: column;gap: 10px;align-items: center;margin-top: 3px;}
-
-.input-registre {text-align: center;box-shadow: -14px 9px 1px 1px;}
+.div-general-registre {
+    background: var(--grisOscuro);
+    width: 97%;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 16px;
+    margin-bottom: 6%;
+}
+.div-general-registre input{
+    margin: 8px;
+}
+.div_imput_conten{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+.input-user-email{
+    margin-bottom: 10px;
+}
+.input-registre {
+    text-align: center;
+    box-shadow: 6px 16px 1px 1px;
+    width: 96%;
+}
 
 
 .div-key-registre {
 }
 
 
-.key-registre {text-align: center;box-shadow: -14px 9px 1px 1px;}
-.boton-registre {text-align: center;border: solid 1px grey;box-shadow: -20px 14px 1px 1px;}
+.key-registre {
+    text-align: center;
+    box-shadow: 6px 16px 1px 1px;
+    width: 96%;
+}
+.boton-registre {
+    background-color: var(--celeste);
+    text-align: center;
+    border: solid 1px grey;
+    margin-left: 30%;
+    margin-right: 25%;
+    color: #fff;
+    margin-top: 44px;
+}
 .boton-registre:hover{
     color: black;
 }
 .usuario-boton-registre {
     background-color: var(--celeste);
-    width: 45%;
-cursor: pointer;
+    cursor: pointer;
+    font-size: 17px;
+    /* width: 60%; */
 }
 
 .usuario-boton-registre:hover{
@@ -35,19 +77,19 @@ color: aqua;
 
 position: absolute;
 
-margin-left: 2%;
+margin-left: 5%;
 
-margin-top: 1%;
+margin-top: 3%;
 }
 #ienvelope-resgistre{
     position: absolute;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 #ikey-registre{
     position: absolute;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 .bienvenido{
     color: var(--grisClaro);
@@ -57,14 +99,24 @@ margin-top: 1%;
 .main-register-registro {
     }
 .subtitulo {
-    margin-left: 41%;
-    margin-bottom: 4px;
-    }
+    margin-left: 0%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: white;
+}
 .form-registre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 .div-general-registre {
-    margin-top: 5px;
-    }
+display: flex;
+flex-direction: column;
+/* flex-wrap: nowrap; */
+/* flex-wrap: nowrap; */
+align-items: center;
+width: 53%;
+}
 
 
 .input-registre {
@@ -82,70 +134,73 @@ margin-top: 1%;
 .sub-title {
     }
 #iUser{
-
-margin-top: 4px;
-
-margin-left: 8px;
+margin-top: 10px;
+margin-left: 12px;
 }
 #ienvelope-resgistre{
-    margin-top: 4px;
-    margin-left: 8px;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 #ikey-registre{
-    margin-top: 4px;
-    margin-left: 8px;
+    margin-top: 11px;
+    margin-left: 12px;
 }
+
 }
 /* PORTATIL DESkTOP */
 @media (min-width: 769px) {
 .main-register-registro {
     }
 .subtitulo {
-    margin-left: 44%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: white;
     }
 .form-registre {
+    width: 69%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
     }
 .div-general-registre {
+    width: 74%;
     }
-
+.div_imput_conten{}
 .input-registre {
-
-border-radius: 5px 5px 5px 5px;
-
-width: 100%;
-
-padding: 2px;
-
-box-shadow: -20px 6px 1px 1px;
-
+border-radius: 5px 5px 5px 5px;
+width: 96%;
+padding: 1px;
+box-shadow: 19px 11px 1px 1px;
 }
 .div-key-registre {
     }
 
 .key-registre {
     padding: 2px;
-    box-shadow: -20px 6px 1px 1px;
+    box-shadow: 18px 10px 1px 1px;
     border-radius: 5px 5px 5px 5px;
     }
 .boton-registre {
+    margin-top: 10%;
+    width: 54%;
     }
 .usuario-boton-registre {
+    margin-left: 12%;
+    width: 39%;
     }
 .sub-title {
     }   
 #iUser{
-
-margin-top: 4px;
-
-margin-left: 8px;
-
+margin-top: 10px;
+margin-left: 11px;
 }
 #ienvelope-resgistre{
-    margin-top: 4px;
-    margin-left: 8px;
+    margin-top: 10px;
+    margin-left: 11px;
     }
 #ikey-registre{
-    margin-top: 4px;
-    margin-left: 8px;
+    margin-top: 11px;
+    margin-left: 11px;
     } 
 }
