@@ -19,7 +19,7 @@ app.get("/header" , (req , res) => {
     res.sendFile(path.join(__dirname, "./views/header.html"));
 })
 
-app.get("/icicio",(req,res)=>{
+app.get("/inicio",(req,res)=>{
     res.sendFile(path.join(__dirname,"./views/login.html"))
 })
 app.get("/registro",(req,res)=>{
