@@ -1,0 +1,26 @@
+:root {
+    /* Colores */
+
+    --negro:#000000;
+    --grisOscuro: #1F2124;
+    --grisClaro:#9F9F9F;
+    --blanco:#D9D9D9;
+    --celeste:#1C5560;
+    --azul:#001F36;
+/* Tipografia */
+
+    --family-inter:'Inter', sans-serif;
+    --family-sans:'DM Sans', sans-serif;
+    --family-fugazOne:'Fugaz One', sans-serif;
+   
+ }
+
+
+*{
+    list-style: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+  }
