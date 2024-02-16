@@ -28,15 +28,17 @@
      }
         
       .footer-links{
-         padding: 0px 15px 0px 30px;
-         width: 25%;
+         text-align: center;
+         display: inline-block;
+         padding: 0px 45px 0px 45px;
+         width: 50%;
          /* border-left: 2px solid var(--celeste); */
       }
      
      .footer-links h4 {
          font-size: 18px;
          color: var(--blanco);
-         margin-bottom: 0px;
+         margin: 10px 0px -5px 0px;
          font-weight: 600;
          padding-bottom: 7px;
          display: inline-block;
@@ -47,7 +49,8 @@
         text-decoration: none;
         color: var(--blanco);
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+        text-align: center;
      }
      
      
@@ -58,10 +61,10 @@
      .social-links a{
         display: inline-block;
         min-height: 40px;
-        width: 40px;
-        margin: 0 10px 10px 0;
+        width: 78px;
+        margin: 0 10px 0px 0;
         text-align: center;
-        line-height:40px;
+        line-height: 40px;
         border-radius: 50%;
         color: var(--blanco);
         transition: all 5px ease;
@@ -69,11 +72,11 @@
      
      footer .social-links{
         text-align: center;
-        width: 53%;
-        padding: 9px 0px 0px 0px;
+        width: 100%;
+        padding: 8px 0px 0px 0px;
         /* border-left: 2px solid var(--celeste); */
-        border-top: 2px solid var(--celeste);
-        margin-left: 20%;
+        /* border-top: 2px solid var(--celeste); */
+        margin: 0% 0% 0% 0%;
         margin-top: 12px;
      }
    
