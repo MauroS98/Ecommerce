@@ -1,33 +1,22 @@
-const express= require("express");
-const app= express();
-const path= require("path");
+const express = require("express");
+const app = express();
+const path = require("path");
 const port = 3040;
 
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
 
-app.get("/" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/index.html"));
-})
-app.get("/footer" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/footer.html"));
-})
-app.get("/detalleProducto" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/productDetail.html"));
-})
+const mainRoutes = require('./routes/main.routes')
+const productRoutes = require('./routes/products.routes')
+const authenticationRoutes = require('./routes/authentication.routes')
+const adminRoutes = require('./routes/admin.routes')
 
-app.get("/header" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/header.html"));
-})
+app.use('/', mainRoutes)
 
-app.get("/inicio",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./views/login.html"))
-})
-app.get("/registro",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./views/registro.html"))
-})
+app.use('/products', productRoutes)
 
-app.get("/carrito",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./views/carrito.html"))
-})
+app.use('/authentication', authenticationRoutes)
 
-app.listen(port,()=>(console.log(`corriendo puerto http://localhost:${port}`)))
+app.use('/admin', adminRoutes)
+
+app.listen(port, () => (console.log(`corriendo puerto http://localhost:${port}`)))
