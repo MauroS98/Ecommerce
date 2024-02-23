@@ -5,4 +5,5 @@ const mainControllers = require('../controllers/products.controllers')
 
 router.get('/', mainControllers.index)
 
+
 module.exports = router
