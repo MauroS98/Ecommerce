@@ -1,5 +1,11 @@
 
- @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+
+
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 .fa-2x {
@@ -14,15 +20,24 @@ text-align: center;
 vertical-align: middle;
 font-size:20px;
 }
-
-
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  margin-left: 29%;
+}
+.container-das {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-left: 25%;
+}
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
 overflow:visible;
 }
 
 .main-menu {
-background:var(--celeste)
+
 border-right:1px solid #e5e5e5;
 position:absolute;
 top:0;
@@ -118,8 +133,8 @@ background-color:#000000;
 }
 .area {
 float: left;
-background:var(--celeste)
-width: 100%;
+
+width: 60%;
 height: 100%;
 }
 @font-face {
@@ -127,4 +142,21 @@ height: 100%;
   font-style: normal;
   font-weight: 300;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+} 
+@media (min-width: 426px) {
+  .btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-left: 29%;
+  }
+  .container-das {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-left: 25%;
+  }
+}
+
+@media(min-width: 769px) { 
+
 } 
