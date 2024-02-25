@@ -5,5 +5,5 @@ module.exports = {
     login: require('../authentication.controllers/login.controller'),
     register: require('../authentication.controllers/register'),
     dashboard: require('../admin.controllers/dashboard.controller'),
-   
+    header: require('../header.controllers/header'),
 }
