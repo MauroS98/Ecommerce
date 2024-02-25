@@ -20,9 +20,18 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
 }
+
+.title-header{
+ color: red;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .logo-container {
     display: flex;
     align-items: center;
+    max-width: 50%;
 }
 
 .logo-container img {
@@ -36,17 +45,15 @@ body {
     border: 2px solid hsl(189.57deg 56.1% 24.12%); 
     border-radius: 5px; 
     width: 330px;
-
-    
 }
+
 .search-bar input {
     padding: 8px;
     margin-right: 0; 
     border: none; 
     border-radius: 3px; 
-    width: 330px;
+    width: 100%;
 }
-
 
 .search-bar button {
     background-color: hsl(189.57deg 56.1% 24.12%);
@@ -54,8 +61,8 @@ body {
     padding: 8px 15px;
     border: none;
     cursor: pointer;
- 
 }
+
 .user-actions #user-button {
     background-color: hsl(189.57deg 56.1% 24.12%);
     color: white;
@@ -64,11 +71,10 @@ body {
     border-radius: 5px;
     margin-right: 10px;
     cursor: pointer;
-    
 }
 
 .user-actions #shopping-button{
-      background-color: hsl(189.57deg 56.1% 24.12%);
+    background-color: hsl(189.57deg 56.1% 24.12%);
     color: white;
     padding: 8px 15px;
     border: 2px; 
@@ -77,82 +83,106 @@ body {
     cursor: pointer;
 }
 
-.product-categories {
-    background-color:rgb(16 17 19);
-    color: white;
-    text-align: center;
-    
-    
-}
-.product-categories-container {
-    background-color: rgb(32, 33, 37); 
-    border-radius: 5px;
-    margin-top: 10px;
-}
+.product-categories-nav {
+    background-color: #101113;
 
-
-.product-categories ul {
+  
+  }
+  
+  .product-categories {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 10px;
     margin: 0 auto;
-    
-}
-
-.product-categories li {
+  }
+  
+  .product-categories li {
     margin-right: 20px;
-    padding: 0 10px; 
+    padding: 0 10px;
     border-right: 3px solid hsl(189.57deg 56.1% 24.12%);
-}
-.product-categories a {
+  }
+  
+  .product-categories a {
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
     display: inline-block;
     padding: 8px 15px;
-    border-radius: 5px; 
-    margin: 0 5px; 
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  #burger-menu{
+    text-align: center;
+    background-color: rgb(32, 33, 37);
+  }
+#burger{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color:hsl(189.57deg 56.1% 24.12%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    
+}
+.categorias a:hover {
+  background-color: hsl(189.57deg 56.1% 24.12%);
 }
 
-    @media (min-width: 425px) {
-       
-    
-        .main-header {
-            justify-content: space-between;
-            padding: 10px; 
-        }
-    
-        .logo-container img {
-            margin-left: 10px;
-            margin-right: 10px;
-            max-height: 40px; 
-        }
-    
-        .search-bar {
-            position: relative;
-        }
-    
-        .product-categories {
-            justify-content: space-between;
-        }
-    
-        .product-categories li {
-            margin-right: 10px;
-        }
-    
-        .product-categories a {
-            padding: 5px 10px;
-        }
+@media only screen and (max-width: 600px) {
+    .title-header{
+        display: none;
+    }
+    .search-bar {
+      display: none;
+    }
+    h3{
+        display: none;
+    }
+    .user-actions #user-button {
+      margin-right: 5px;
+    }
+  
+    .user-actions #shopping-button {
+      margin-right: 5px;
+    }
+  
+    .product-categories-nav {
+        display: none;
+      }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 960px) {
+   .title-header{
+    display: none;
+   }
+    .search-bar {
+      width: 300px;
+    }
+  
+    .product-categories li {
+      margin-right: 10px;
+    }
+    #burger-menu{
+        display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+   
+    .search-bar {
+      width: 330px;
+    }
+  
+    .product-categories li {
+      margin-right: 20px;
     }
 
-
- @media  (max-width: 768px) {
-
-    .main-header {
-        flex-direction: row;
-        justify-content: space-between;
+    #burger-menu{
+        display: none;
     }
-    .product-categories{
-            justify-content: center;
-    }
- }
+  }
