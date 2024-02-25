@@ -1,17 +1,25 @@
 .main-login {
-    border: solid 2px red;
-    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 9%;
+    width: 81%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background: linear-gradient(143deg, rgba(4,13,14,1) 16%, rgba(15,59,67,1) 29%, rgba(24,95,109,1) 39%, rgba(34,138,157,1) 60%);
-    }
-   
+    background: var(--grisOscuro);
+    justify-content: center;
+} 
 
+.subtitulo-login {
 
-.logo-login {
-    width: 25%;
-    border-radius: 50%;
+color: var(--blanco);
+
+font-family: var(--family-sans);
+
+font-size: 17px;
+
+margin-left: 31%;
+
+margin-bottom: 1%;
 }
 
 .form-login {
@@ -33,15 +41,15 @@
 
 #fa-envelope-login {
     position: absolute;
-    margin-left: 12px;
-    margin-top: 4px;
+    margin-left: 24px;
+    margin-top: 16px;
 }
 .input-login {
-    box-shadow: 10px 12px 10px;
-    border-radius: 26px 39px 41px 29px;
-    width: 87%;
-    margin-left: 2px;
-    margin-top: 2px;
+    box-shadow: -20px 14px 1px 0px;
+    border-radius: 5px 5px 5px 5px;
+    width: 81%;
+    margin-left: 17px;
+    margin-top: 13px;
     text-align: center;
 }
 .div-key-login{
@@ -50,43 +58,146 @@
     
 }
 .key-login {
-    width: 94%;
-    border-radius: 26px 39px 41px 29px;
-    box-shadow: 10px 12px 10px;
+    width: 87%;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: -20px 14px 1px 1px;
     text-align: center;
+    margin-left: 7%;
 }
 #fa-key-login {
     position: absolute;
-    margin-left: 10px;
-    margin-top: 2px;
+    margin-left: 19px;
+    margin-top: 4px;
 }
 
 .usuario-boton-login {
     padding: 2px;
-    color: #000;
+    color: var(--blanco);
+    font-family: var(--family-sans);
+    font-size: 14px;
 }
 .boton-login{
     cursor: pointer;
-    border: solid 3px;
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: center;
-    border-radius: 11px 11px 11px 11px;
-    background: radial-gradient(circle, rgba(63,221,251,0.9500175070028011) 0%,
-     rgba(103,108,199,1) 100%);
-     margin-bottom: 12px;
-     margin-left: 27%;
-     box-shadow: 10px 12px 10px;
-     background: linear-gradient(55deg, rgba(0,212,255,1) 41%, rgb(9 9 121 / 65%) 69%, rgb(2 0 36 / 37%) 100%);
+    border-radius: 2px 2px 2px 2px;
+    margin-left: 29%;
+    background: var(--celeste);
+    box-shadow: -20px 14px 1px 1px;
 }
+.link-login{
+    text-decoration: var(--blanco);
+    border: 0px 0px 0px 1px solid white;
+}
+
 /* TABLET */
+
 @media (min-width: 426px) {
-   
+    .main-login {
+     
+width: 50%;
+     
+margin-left: 26%;
+    } 
+    .subtitulo-login {
+
+margin-left: 35%;
+
 }
+
+    .form-login {
+     
+    }
+    
+    .div-general-login {
+       
+    }
+    
+    #fa-envelope-login {
+       
+margin-left: 26px;
+    }
+    .input-login {
+       
+margin-left: 7%;
+    }
+    .div-key-login{
+      
+        
+    }
+    .key-login {
+    }
+    #fa-key-login {
+  
+margin-left: 26px;
+  
+}
+    
+    .usuario-boton-login {
+      
+    }
+    .boton-login{
+   
+    }
+    .link-login{
+     
+    }
+}
+
 /* PORTATIL DESkTOP */
+
 @media (min-width: 769px) {
-    .logo-login {
-        width: 20%;
-        border-radius: 50%;
+    .main-login {
+     
+    } 
+    .subtitulo-login {
+
+margin-left: 39%;
+
+}  
+
+    .form-login {
+     
+    }
+    
+    .div-general-login {
+       
+    }
+    
+    #fa-envelope-login {
+       
+margin-left: 33px;
+    }
+    .input-login {
+       
+padding: 3px;
+    }
+    .div-key-login{
+      
+        
+    }
+    .key-login {
+     
+padding: 3px;
+    }
+    #fa-key-login {
+  
+margin-left: 30px;
+  
+}
+    
+    .usuario-boton-login{
+        background: var(--celeste);
+    }
+    .usuario-boton-login:hover {
+        background: blue;
+ transition: all;
+    }
+    .boton-login:hover{
+  background-color: blue;
+    }
+    .link-login{
+     
     }
 }

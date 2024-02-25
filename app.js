@@ -1,23 +1,25 @@
-const express= require("express");
-const app= express();
-const path= require("path");
+const express = require("express");
+const app = express();
+const path = require("path");
 const port = 3040;
 
+const mainRoutes = require('./routes/main.routes')
+const productRoutes = require('./routes/products.routes')
+const authenticationRoutes = require('./routes/authentication.routes')
+const adminRoutes = require('./routes/admin.routes')
+
 app.use(express.static('public'));
+app.set('view engine', 'ejs');
 
-app.get("/" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/index.html"));
-})
 
-app.get("/header" , (req , res) => {
-    res.sendFile(path.join(__dirname, "./views/header.html"));
-})
 
-app.get("/login",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./views/login.html"))
-})
-app.get("/registro",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./views/registro.html"))
-})
 
-app.listen(port,()=>(console.log(`corriendo puerto http://localhost:${port}`)))
+app.use('/', mainRoutes)
+
+app.use('/products', productRoutes)
+
+app.use('/authentication', authenticationRoutes)
+
+app.use('/admin', adminRoutes)
+
+app.listen(port, () => (console.log(`corriendo puerto http://localhost:${port}`)))
