@@ -14,3 +14,14 @@
 # Hacer menos
 *No encontramos nada en particular sobre estos 2 temas con respecto al 1er sprint.
 
+### Retrospectiva con respecto al 2do sprint
+
+# Hacer más
+
+# Continuar haciendo
+
+# Comenzar a hacer
+
+# Dejar de hacer
+
+# Hacer menos
