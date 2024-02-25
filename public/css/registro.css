@@ -1,0 +1,225 @@
+.main-register-registro {
+    background-color: white;
+}
+.subtitulo {
+    margin-left: 37%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: white;
+    font-size: 17px;
+    font-family: var(--family-sans);
+}
+.form-registre {
+    display: flex;
+    justify-content: space-around;
+}
+.div-general-registre {
+    background: var(--grisOscuro);
+    width: 97%;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 16px;
+    margin-bottom: 6%;
+}
+.div-general-registre input{
+    margin: 8px;
+}
+.div_imput_conten{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+.input-user-email{
+    margin-bottom: 10px;
+}
+.input-registre {
+    text-align: center;
+    box-shadow: 6px 16px 1px 1px;
+    width: 96%;
+}
+
+
+.div-key-registre {
+}
+
+
+.key-registre {
+    text-align: center;
+    box-shadow: 6px 16px 1px 1px;
+    width: 96%;
+}
+.boton-registre {
+    background-color: var(--celeste);
+    text-align: center;
+    border: solid 1px grey;
+    margin-left: 30%;
+    margin-right: 25%;
+    color: var(--blanco);
+    margin-top: 44px;
+    font-family: var(--family-sans);
+}
+.boton-registre:hover{
+    color: black;
+}
+.usuario-boton-registre {
+    background-color: var(--celeste);
+    cursor: pointer;
+    font-size: 16px;
+    /* width: 60%; */
+}
+
+.usuario-boton-registre:hover{
+color: aqua;
+    }   
+.sub-title {color: var(--blanco);font-size: 9px;margin-left: 30%;text-decoration: underline;}
+#iUser{
+
+position: absolute;
+
+margin-left: 5%;
+
+margin-top: 3%;
+}
+#ienvelope-resgistre{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#ikey-registre{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.bienvenido{
+    color: var(--grisClaro);
+}
+/* TABLET */
+@media (min-width: 426px) {
+.main-register-registro {
+    }
+.subtitulo {
+    margin-left: 1%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: var(--blanco);
+}
+.form-registre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.div-general-registre {
+
+display: flex;
+
+flex-direction: column;
+
+/* flex-wrap: nowrap; */
+
+/* flex-wrap: nowrap; */
+
+align-items: center;
+
+width: 53%;
+}
+
+
+.input-registre {
+    }
+
+.div-key-registre {
+    }
+
+.key-registre {
+    }
+.boton-registre {
+    }
+.usuario-boton-registre {
+    }
+.sub-title {
+    margin-left: 42%;
+    }
+#iUser{
+
+margin-top: 10px;
+
+margin-left: 12px;
+}
+#ienvelope-resgistre{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+#ikey-registre{
+    margin-top: 11px;
+    margin-left: 12px;
+}
+
+}
+/* PORTATIL DESkTOP */
+@media (min-width: 769px) {
+.main-register-registro {
+    }
+.subtitulo {
+    margin-left: 0%;
+    margin-bottom: 0px;
+    padding-top: 9%;
+    color: white;
+    }
+.form-registre {
+    width: 69%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    }
+.div-general-registre {
+    width: 74%;
+    }
+.div_imput_conten{}
+.input-registre {
+
+border-radius: 5px 5px 5px 5px;
+
+width: 96%;
+
+padding: 1px;
+
+box-shadow: 19px 11px 1px 1px;
+}
+.div-key-registre {
+    }
+
+.key-registre {
+    padding: 2px;
+    box-shadow: 18px 10px 1px 1px;
+    border-radius: 5px 5px 5px 5px;
+    }
+.boton-registre {
+    margin-top: 9%;
+    width: 39%;
+    margin-left: 36%;
+    }
+.usuario-boton-registre {
+    margin-left: 0%;
+    width: 39%;
+    }
+.sub-title {
+    font-size: 10px;
+    }   
+#iUser{
+
+margin-top: 10px;
+
+margin-left: 11px;
+}
+#ienvelope-resgistre{
+    margin-top: 10px;
+    margin-left: 11px;
+    }
+#ikey-registre{
+    margin-top: 11px;
+    margin-left: 11px;
+    } 
+}
