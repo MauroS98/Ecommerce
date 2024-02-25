@@ -4,5 +4,6 @@ module.exports = {
     productDetail: require('./products.controllers/product.detail.controller'),
     login: require('./authentication.controllers/login.controller'),
     register: require('./authentication.controllers/register'),
-    dashboard: require('./admin.controllers/dashboard.controller')
+    dashboard: require('./admin.controllers/dashboard.controller'),
+    updateProduct: require('./admin.controllers/updateProduct.controller')
 }
