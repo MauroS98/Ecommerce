@@ -9,7 +9,7 @@
       }
       .container{
          max-width: 100%;
-         margin: 0 auto;
+         margin: 0px 0px 0px 0px;
       }
       
       .main-footer{
@@ -28,40 +28,45 @@
      }
         
       .footer-links{
-         padding: 0px 15px 0px 30px;
-         width: 25%;
+         text-align: center;
+         display: inline-block;
+         /* padding: 0px 0px 0px 0px; */
+         width: 50%;
          /* border-left: 2px solid var(--celeste); */
       }
      
      .footer-links h4 {
+         padding-left: 20%;
          font-size: 18px;
          color: var(--blanco);
-         margin-bottom: 0px;
+         margin: 10px 0px -5px 0px;
          font-weight: 600;
          padding-bottom: 7px;
          display: inline-block;
      }
-     
+    
      .footer-links ul li a{
         font-size: 9px;
         text-decoration: none;
         color: var(--blanco);
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+        text-align: center;
      }
      
      
      .social-links h4{
+        font-size: 13px;
         color: var(--blanco);
       }
      
      .social-links a{
         display: inline-block;
         min-height: 40px;
-        width: 40px;
-        margin: 0 10px 10px 0;
+        width: 49px;
+        margin: 0 10px 0px 0;
         text-align: center;
-        line-height:40px;
+        line-height: 40px;
         border-radius: 50%;
         color: var(--blanco);
         transition: all 5px ease;
@@ -69,11 +74,11 @@
      
      footer .social-links{
         text-align: center;
-        width: 54%;
-        padding: 9px 0px 0px 0px;
+        width: 100%;
+        padding: 8px 0px 0px 0px;
         /* border-left: 2px solid var(--celeste); */
-        border-top: 2px solid var(--celeste);
-        margin-left: 20%;
+        /* border-top: 2px solid var(--celeste); */
+        margin: 0% 0% 0% 0%;
         margin-top: 12px;
      }
    
@@ -119,13 +124,13 @@
    }
   
   .footer-links h4 {
-      font-size: 17px;
+      font-size: 16px;
       color: var(--blanco);
       font-weight: 600;
-      padding-bottom: 9px;
+      padding-bottom: 14px;
       display: inline-block;
       font-family: var(--family-inter);
-      margin-left: 22%;
+      /* margin-left: 22%; */
   }
   
   .footer-links ul li a{
@@ -144,10 +149,10 @@
   .social-links a{
      display: inline-block;
      min-height: 40px;
-     width: 40px;
+     width: 75px;
      margin: 0 10px 10px 0;
      text-align: center;
-     line-height:40px;
+     line-height: 40px;
      border-radius: 50%;
      color: var(--blanco);
      transition: all 5px ease;
@@ -195,14 +200,16 @@
    
  .footer-links{
     width: 20%;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
     border-left: 2px solid var(--celeste);
  }
 
 .footer-links h4 {
+    margin: auto;
+    margin-right: 3%;
     font-size: 18px;
     color: var(--blanco);
-    margin-bottom: 10px;
+    /* margin-bottom: 0px; */
     font-weight: 700;
     padding-bottom: none;
     display: inline-block;
@@ -214,7 +221,7 @@
    text-decoration: none;
    color: var(--blanco);
    display: block;
-   margin-bottom: 10px;
+   margin-bottom: 3px;
 }
 
 .social-links h4{

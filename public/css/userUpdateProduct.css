@@ -1,0 +1,96 @@
+/*<=================================================================================================================>*/
+/*                     MOBILE                            MOBILE                            MOBILE                    */
+/*<=================================================================================================================>*/
+@media (max-width:425px) {
+
+body{
+    height: 100%;
+    width: 100%;
+    /* font-family:var(--family-sans); */
+}
+.container {
+    margin: 0% 0% 2% 0%;
+    height: 100%;
+    width: 100%;
+}
+.formUpdateProduct{
+    padding: 20px;
+    border: 1px solid var(--celeste);
+}
+.mb-4, .my-4 {
+    text-align: center;
+    text-shadow: 1px 2px 2px var(--celeste); 
+}
+    .btn-primary {
+    margin-left: 21%;
+}
+
+}
+
+/*<=================================================================================================================>*/
+/*                     TABLET                            TABLET                            TABLET                    */
+/*<=================================================================================================================>*/
+
+@media (min-width: 426px) {
+
+    body{
+        height: 100%;
+        width: 100%;
+        font-family:var(--family-sans);
+    }
+    .container {
+        padding: 0%;
+        height: 100%;
+        width: 100%;
+    }
+    .formUpdateProduct{
+        padding: 20px;
+        border: 1px solid var(--celeste);
+        margin-bottom: 8%;
+    }
+    .mb-4, .my-4 {
+        font-size: 55px;
+        text-align: center;
+        text-shadow: 1px 2px 2px var(--celeste);
+    }
+        .btn-primary {
+        margin-left: 33%;
+        width: 34%;
+        font-size: 20px;
+    }
+
+}
+
+/*<=================================================================================================================>*/
+/*                    DESKTOP                           DESKTOP                           DESKTOP                    */
+/*<=================================================================================================================>*/
+
+@media(min-width:769px) {
+    
+    body{
+        height: 100%;
+        width: 100%;
+        font-family:var(--family-sans);
+    }
+    .container {
+        padding: 8%;
+        height: 100%;
+        width: 100%;
+    }
+    .formUpdateProduct{
+        padding: 20px;
+        border: 2px solid var(--celeste);
+        margin-bottom: 8%;
+    }
+    .mb-4, .my-4 {
+        font-size: 55px;
+        text-align: center;
+        text-shadow: 1px 2px 2px var(--celeste);
+    }
+        .btn-primary {
+        margin-left: 33%;
+        width: 34%;
+        font-size: 20px;
+    }
+
+}

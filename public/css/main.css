@@ -5,7 +5,7 @@
 @media (max-width:425px) {
     .detalle-producto {
         background-color: white;
-        padding: 0 67px;
+        padding: 0% 10% 0% 10%;
         font-family: var(--family-inter);
     }
 
