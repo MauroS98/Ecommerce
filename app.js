@@ -3,13 +3,15 @@ const app = express();
 const path = require("path");
 const port = 3040;
 
-app.use(express.static('public'));
-app.set('view engine', 'ejs');
-
 const mainRoutes = require('./routes/main.routes')
 const productRoutes = require('./routes/products.routes')
 const authenticationRoutes = require('./routes/authentication.routes')
 const adminRoutes = require('./routes/admin.routes')
+
+app.use(express.static('public'));
+app.set('view engine', 'ejs');
+
+
 
 
 app.use('/', mainRoutes)
