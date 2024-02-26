@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <%- include('./partials/head') %>
+
+  
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="Logo.jpg" alt="Logo">
+        </div>
+        <div class="title-header">
+            <h1 class="title">Quantum PC</h1>
+          </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="user-actions">
+          <a href="/login">
+            <button id="users-button"><i class="fa-solid fa-user-large"></i><h3>Ingresar</h3></button>
+          </a>
+          <a href="/cart">
+            <button id="shoppings-button"><i class="fa-solid fa-cart-shopping"></i><h3>Carrito</h3></button>
+          </a>  
+        </div>
+    </header>
+    <div id="burger-menu">
+        <button id="burger"><i class="fa-solid fa-bars barras"></i></button>
+      </div>
+    </div>
+    <nav class="product-categories-nav">
+        <ul class="product-categories">
+            <li><a href="#">PC Armadas </a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">Periféricos</a></li>
+            <li><a href="#">Notebooks</a></li>
+            <li><a href="#">Ver Todo</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

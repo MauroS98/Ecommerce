@@ -6,5 +6,7 @@ module.exports = {
     register: require('../authentication.controllers/register'),
     dashboard: require('../admin.controllers/dashboard.controller'),
     updateProduct: require('../admin.controllers/updateProduct.controller'),
-    listProducts: require('../admin.controllers/listProducts.controller')
+    listProducts: require('../admin.controllers/listProducts.controller'),
+    header: require('../header.controllers/header.controller'),
+    head: require('../header.controllers/head')
 }
