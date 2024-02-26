@@ -1,6 +1,5 @@
 :root {
     /* Colores */
-
     --negro:#000000;
     --grisOscuro: #1F2124;
     --grisClaro:#9F9F9F;
@@ -8,11 +7,9 @@
     --celeste:#1C5560;
     --azul:#001F36;
 /* Tipografia */
-
     --family-inter:'Inter', sans-serif;
     --family-sans:'DM Sans', sans-serif;
     --family-fugazOne:'Fugaz One', sans-serif;
-   
  }
 
 
