@@ -1,4 +1,4 @@
 
 module.exports= (req,res)=>{
-    res.render("create")
+    res.render("createProduct")
     }
