@@ -1,6 +1,6 @@
 
 module.exports={
     create:(req,res)=>{
-        res.render("productCreate")
+    res.render("productCreate")
     }
 }
