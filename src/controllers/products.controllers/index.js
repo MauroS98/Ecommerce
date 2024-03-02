@@ -9,5 +9,6 @@ module.exports = {
     listProducts: require('../admin.controllers/listProducts.controller'),
     header: require('../header.controllers/header.controller'),
     head: require('../header.controllers/head'),
-    create: require("../admin.controllers/createProduct.controller"),
+    create: require("../admin.controllers/create.controller"),
+    store:require("../admin.controllers/store.controller")
 }
