@@ -8,5 +8,6 @@ module.exports = {
     updateProduct: require('../admin.controllers/updateProduct.controller'),
     listProducts: require('../admin.controllers/listProducts.controller'),
     header: require('../header.controllers/header.controller'),
-    head: require('../header.controllers/head')
+    head: require('../header.controllers/head'),
+    create: require("../admin.controllers/createProduct.controller"),
 }
