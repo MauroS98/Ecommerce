@@ -1,20 +1,16 @@
 {
-  "name": "grupo_4_quantumpc",
-  "description": "Integrantes:\r *Barrios, Samuel.\r *Castillo, Gaston.\r *Cotelo, Matias.\r *Maciel, Lucas.\r *Suarez, Mauro.",
-  "version": "1.0.0",
-  "main": "app.js",
+  "name": "quantumpc",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node ./src/bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemon": "^3.1.0",
-    "path": "^0.12.7"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
