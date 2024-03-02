@@ -25,10 +25,12 @@ body {
     display: flex;
     align-items: center;
     max-width: 50%;
+    border-radius: 50%;
 }
 
 .logo-container img {
     max-height: 50px;
+    border-radius: 50%;
 }
 
 .search-bar {
@@ -170,6 +172,7 @@ body {
    
     .search-bar {
       width: 330px;
+margin-left: 23%;
     }
   
     .product-categories li {
