@@ -1,4 +1,18 @@
-
+const { loadData, saveData } =require("../../data")
 module.exports= (req,res)=>{
-    res.render("create")
+const {name, price, description,category} = req.body
+const producto =loadData();
+
+const newID=producto[producto.length-1].id +1
+const newproducto ={
+    id:newID,
+    name:name.trim(),
+    price: +price,
+    description:description.trim(),
+    category:category.trim(),
+    image:""
+}
+producto.push(newproducto)
+saveData(producto)
+    res.redirect(`/productdetail${newID}`);
     }
