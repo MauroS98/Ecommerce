@@ -1,5 +1,0 @@
-Tipografias usadas:
- 
- * Inter
- * DM Sans
- * Fugaz One
