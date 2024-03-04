@@ -22,20 +22,25 @@ body {
 }
 
 .title-header{
-color: red;
+color: var(--blanco);
+font-family: var(--family-fugazOne);
+
 }
 
 .title{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--family-fugazOne);
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 .logo-container {
     display: flex;
     align-items: center;
     max-width: 50%;
+    border-radius: 50%;
 }
 
 .logo-container img {
     max-height: 50px;
+    border-radius: 50%;
 }
 
 .search-bar {
