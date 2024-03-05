@@ -207,7 +207,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
       "image": "../../images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OC.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS1.jpeg","../../public/images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS2.jpeg"
+         "../../images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS1.jpeg",
+         "../../public/images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 1073999
@@ -223,7 +224,8 @@
       ],
       "category": "Placas de Video",
       "price": 1510999
-   },   {
+   },
+   {
       "id": 20,
       "name": "Placa De Video Radeon RX 7700 XT 12Gb Gigabyte Gaming Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
@@ -234,5 +236,29 @@
       ],
       "category": "Placas de Video",
       "price": 773999
+   },
+   {
+      "id": 21,
+      "name": "placa de video",
+      "price": 12344,
+      "description": "asdasdasd",
+      "category": "",
+      "image": "default-image.png"
+   },
+   {
+      "id": 22,
+      "name": "placa de video",
+      "price": 60000,
+      "description": "Placa Geforce",
+      "category": "",
+      "image": "default-image.png"
+   },
+   {
+      "id": 23,
+      "name": "placa de video RTX 2060 SUPER",
+      "price": 629999,
+      "description": "Placa Geforce rtx marca gigabyte windforce",
+      "category": "",
+      "image": "default-image.png"
    }
 ]

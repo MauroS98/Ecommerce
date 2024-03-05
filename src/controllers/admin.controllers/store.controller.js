@@ -10,9 +10,9 @@ const newproducto ={
     price: +price,
     description:description.trim(),
     category:category.trim(),
-    image:""
+    image:"default-image.png"
 }
 producto.push(newproducto)
 saveData(producto)
-    res.redirect(`/productdetail${newID}`);
+    res.redirect(`/`);
     }
