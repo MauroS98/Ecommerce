@@ -7,7 +7,7 @@ const {create,store,}= require("../controllers/admin.controllers")
 
 const storage =multer.diskStorage({
     destination: function (req,file,cb){
-cb(null, '../../public/images/productos')
+cb(null, path.join(__dirname,'../../public/images/productos'))
     },
     filename: function(req,file,cb){
         const formatFilename =file.fieldname +'-'+ Date.now() + path.extname(file.originalname)
@@ -21,7 +21,7 @@ router.get("/lista-producto", mainControllers.listProducts);
 router.get("/editar-producto/:id", mainControllers.updateProduct); 
 router.get('/dashboard', mainControllers.dashboard);
 router.get("/crear-producto",mainControllers.create);
-router.post('/crear-producto', upload.single("images"), mainControllers.store); 
+router.post('/crear-producto', upload.single("image"), mainControllers.store); 
 
 
 

@@ -67,10 +67,10 @@
       "id": 6,
       "name": "Procesador Amd Ryzen 5 5600X 3.7 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../public/images/productos/ProcesadorAmdRyzen5-5600X.jpeg",
+      "image": "../../images/productos/ProcesadorAmdRyzen5-5600X.jpeg",
       "image-secondary": [
-         "../../public/images/productos/ProcesadorAmdRyzen5-5600XS1.jpeg",
-         "../../public/images/productos/ProcesadorAmdRyzen5-5600XS2.jpeg"
+         "../../images/productos/ProcesadorAmdRyzen5-5600XS1.jpeg",
+         "../../images/productos/ProcesadorAmdRyzen5-5600XS2.jpeg"
       ],
       "category": "Procesadores",
       "price": 249899
@@ -79,9 +79,9 @@
       "id": 7,
       "name": "Procesador Amd Ryzen 7 5700X",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../public/images/productos/ProcesadorAmdRyzen7-5700X.jpeg",
+      "image": "../../images/productos/ProcesadorAmdRyzen7-5700X.jpeg",
       "image-secondary": [
-         "../../public/images/productos/ProcesadorAmdRyzen7-5700XS1.jpeg"
+         "../../images/productos/ProcesadorAmdRyzen7-5700XS1.jpeg"
       ],
       "category": "Procesadores",
       "price": 477839
@@ -90,10 +90,10 @@
       "id": 8,
       "name": "Procesador Intel Core i3 10105 4.4 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../public/images/productos/procesadorcpuinteli3_10105.jpeg",
+      "image": "../../images/productos/procesadorcpuinteli3_10105.jpeg",
       "image-secondary": [
-         "../../public/images/productos/procesadorcpuinteli3_10105S1.jpeg",
-         "../../public/images/productos/procesadorcpuinteli3_10105S2.jpeg"
+         "../../images/productos/procesadorcpuinteli3_10105S1.jpeg",
+         "../../images/productos/procesadorcpuinteli3_10105S2.jpeg"
       ],
       "category": "Procesadores",
       "price": 162499
@@ -102,9 +102,9 @@
       "id": 9,
       "name": "Procesador Intel Core i5 12400 4.4 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../public/images/productos/procesadorcpuinteli5_12400.jpeg",
+      "image": "../../images/productos/procesadorcpuinteli5_12400.jpeg",
       "image-secondary": [
-         "../../public/images/productos/procesadorcpuinteli5_12400S1.jpeg"
+         "../../images/productos/procesadorcpuinteli5_12400S1.jpeg"
       ],
       "category": "Procesadores",
       "price": 289999
@@ -115,8 +115,8 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
       "image": "../../public/images/productos/procesadorinteli7_12700F.jpeg",
       "image-secondary": [
-         "../../public/images/productos/procesadorinteli7_12700F.jpegS1",
-         "../../public/images/productos/procesadorinteli7_12700FS2.jpeg"
+         "../../images/productos/procesadorinteli7_12700F.jpegS1",
+         "../../images/productos/procesadorinteli7_12700FS2.jpeg"
       ],
       "category": "Procesadores",
       "price": 449999
@@ -259,6 +259,30 @@
       "price": 629999,
       "description": "Placa Geforce rtx marca gigabyte windforce",
       "category": "",
+      "image": "default-image.png"
+   },
+   {
+      "id": 24,
+      "name": "d d",
+      "price": 2222,
+      "description": "teclado",
+      "category": "",
+      "image": "default-image.png"
+   },
+   {
+      "id": 25,
+      "name": "teclado",
+      "price": 66666,
+      "description": "grande",
+      "category": "Procesadores",
+      "image": "default-image.png"
+   },
+   {
+      "id": 26,
+      "name": "chalarger",
+      "price": 6655555,
+      "description": "bueno",
+      "category": "Procesadores",
       "image": "default-image.png"
    }
 ]
