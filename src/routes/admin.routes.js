@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router()
 const multer = require("multer")
+const path = require("path")
 const mainControllers = require('../controllers/products.controllers')
 const {create,store,}= require("../controllers/admin.controllers")            
 
