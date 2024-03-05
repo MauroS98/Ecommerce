@@ -10,8 +10,8 @@ const newproducto ={
     price: +price,
     description:description.trim(),
     category:category.trim(),
-    image: "default-image.png",
-    imagesecundari
+    image:  "default-image.png",
+    
 }
 producto.push(newproducto)
 saveData(producto)
