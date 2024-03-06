@@ -284,5 +284,13 @@
       "description": "bueno",
       "category": "Procesadores",
       "image": "default-image.png"
+   },
+   {
+      "id": 27,
+      "name": "teclado",
+      "price": 555555,
+      "description": "grande",
+      "category": "Memorias Ram",
+      "image": "default-image.png"
    }
 ]
