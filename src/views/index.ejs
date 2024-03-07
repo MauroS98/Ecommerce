@@ -55,111 +55,28 @@
             <div class="carousel-container">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-1.png" alt="img-producto">
+                        <% products.forEach(p => { %>
+                            <% if (p.id < 10) { %>
+                             
+                                <div class="swiper-slide">
+                                    <article class="product-card">
+                                        <div class="img-content">
+                                            <img src="/images/<%= p.image%>" alt="img-producto">
+                                        </div>
+                                        <div class="product-info">
+                                            <h3><%= p.name %></h3>
+                                            <h3><%= p.price %></h3>
+                                        </div>
+                                    </article>
                                 </div>
-                                <div class="product-info">
-                                    <h3>Gigabyte X399 AORUS Gaming 7</h3>
-                                    <h3>$240.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-2.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Gigabyte GeForce GTX 1080 G1</h3>
-                                    <h3>$220.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-3.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Memorias RAM Vengeance PRO</h3>
-                                    <h3>$120.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-4.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Gabinete Cooler Master</h3>
-                                    <h3>$60.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-5.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Disco Duro HDD WD 1TB</h3>
-                                    <h3>$15.000</h3>
-                                </div>
-                            </article>
-                        </div>               
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-1.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Gigabyte X399 AORUS Gaming 7</h3>
-                                    <h3>$240.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-2.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Gigabyte GeForce GTX 1080 G1</h3>
-                                    <h3>$220.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-3.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Memorias RAM Vengeance PRO</h3>
-                                    <h3>$120.000</h3>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                            <article class="product-card">
-                                <div class="img-content">
-                                    <img src="/images/product-img-4.png" alt="img-producto">
-                                </div>
-                                <div class="product-info">
-                                    <h3>Gabinete Cooler Master</h3>
-                                    <h3>$60.000</h3>
-                                </div>
-                            </article>
-                        </div>
+                                <% } %>
+                            <% }) %>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-            </div>
+            </div>  
             <div id="carousel2" class="carousel-container">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
@@ -279,7 +196,7 @@
                     slidesPerView: 2,
                     spaceBetween: 10,
                     freeMode: true,
-                    loop: true,
+                    //loop: true,
                     navigation: {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
