@@ -98,7 +98,8 @@
    }
    .container{
       max-width: 100%;
-      margin: 0px auto;
+      margin: 0 auto;
+   
    }
    
    .main-footer{
@@ -175,8 +176,10 @@
 @media(min-width: 769px) { 
 
  body{
-   font-family:var(--family-sans);
-   text-transform: capitalize;
+   
+font-family:var(--family-sans);
+   
+text-transform: capitalize;
  }
  .container{
     max-width: 100%;
