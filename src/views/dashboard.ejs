@@ -12,15 +12,19 @@
         <!-- <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> -->
        <link rel="stylesheet" href="https://api.mockaroo.com/api/0b5f3440?count=30&key=null" > 
-    <link rel="stylesheet" href="/css/style.css">
+     
+       <link rel="stylesheet" href="/css/style.css">
+       <link rel="icon" href="../../images/otros/Logo.ico" type="">
     <title>dashboard</title>
 </head>
-
-
 <body> 
-    
+  <main>
+  
     <div class="area"></div>
     <nav class="main-menu">
+      <ul>
+        <li><img class="dash-logo" src="../../images/otros/Logo.ico" alt=""><span>quantum pc</span></img></li>
+      </ul>
       <ul>
         <li>
             <a href="/">
@@ -32,7 +36,7 @@
           
         </li>
         <li class="has-subnav">
-            <a href="#">
+            <a href="/admin/crear-producto">
               <i class="fa fa-server" aria-hidden="true"></i>
                 <span class="nav-text">
                    Crear Producto
@@ -59,7 +63,7 @@
            
         </li>
         <li>
-            <a href="#">
+            <a href="/products/cart">
               <i class="fa fa-cart-plus" aria-hidden="true"></i>
                 <span class="nav-text">
                   Carrito
@@ -75,10 +79,18 @@
             </a>
         </li>
         <li>
-           <a href="#">
+           <a href="">
              <i class="fa fa-wpforms" aria-hidden="true"></i>
              <span class="nav-text">
                Lista Producto
+              </span>  
+            </a>
+          </li>
+        <li>
+           <a href="/products/productDetail">
+             <i class="fa fa-wpforms" aria-hidden="true"></i>
+             <span class="nav-text">
+               detalle de Producto
               </span>  
             </a>
           </li>
@@ -102,7 +114,7 @@
 
     <ul class="logout">
         <li>
-           <a href="#">
+           <a href="/admin/dashboard">
                  <i class="fa fa-power-off fa-2x"></i>
                 <span class="nav-text">
                     salir
@@ -111,14 +123,13 @@
         </li>  
     </ul>
 </nav>
-    
-    
+
     
  
       
-     
+</main>
     
-   
+
      <!-- <script src="../public/js/funciones/dashboard.js"></script> -->
 </body>  
 

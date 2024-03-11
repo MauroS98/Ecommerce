@@ -22,20 +22,25 @@ body {
 }
 
 .title-header{
-color: red;
+color: var(--blanco);
+font-family: var(--family-fugazOne);
+
 }
 
 .title{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--family-fugazOne);
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 .logo-container {
-  display: flex;
-  align-items: center;
-  max-width: 50%;
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 50%;
 }
 
 .logo-container img {
-  max-height: 50px;
+    max-height: 50px;
+    border-radius: 50%;
 }
 
 .search-bar {
@@ -134,53 +139,53 @@ background-color: hsl(189.57deg 56.1% 24.12%);
 }
 
 @media only screen and (max-width: 600px) {
-  .title-header{
-      display: none;
-  }
-  .search-bar {
-    display: none;
-  }
-  h3{
-      display: none;
-  }
-  .user-actions #users-button {
-    margin-right: 5px;
-  }
-
-  .user-actions #shoppings-button {
-    margin-right: 5px;
-  }
-
-  .product-categories-nav {
+    .title-header{
+        display: none;
+    }
+    .search-bar {
       display: none;
     }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 960px) {
- .title-header{
-  display: none;
- }
-  .search-bar {
-    width: 300px;
+    h3{
+        display: none;
+    }
+    .user-actions #users-button {
+      margin-right: 5px;
+    }
+  
+    .user-actions #shoppings-button {
+      margin-right: 5px;
+    }
+  
+    .product-categories-nav {
+        display: none;
+      }
   }
-
-  .product-categories li {
-    margin-right: 10px;
+  
+  @media only screen and (min-width: 600px) and (max-width: 960px) {
+   .title-header{
+    display: none;
+   }
+    .search-bar {
+      width: 300px;
+    }
+  
+    .product-categories li {
+      margin-right: 10px;
+    }
+    #burger-menu{
+        display: none;
+    }
   }
-  #burger-menu{
-      display: none;
-  }
-}
-
-@media only screen and (min-width: 960px) {
- 
-  .search-bar {
-    width: 330px;
-  }
-
-  .product-categories li {
-    margin-right: 20px;
-  }
+  
+  @media only screen and (min-width: 960px) {
+   
+    .search-bar {
+      width: 330px;
+    }
+  
+    .product-categories li {
+      margin-right: 20px;
+    }
 
   #burger-menu{
       display: none;
