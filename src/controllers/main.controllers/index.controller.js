@@ -1,3 +1,8 @@
+const { loadData } = require("../../data")
+
 module.exports = (req, res) => {
-    res.render('index')
+
+    const products = loadData()
+
+    res.render('index', { products })
 }
