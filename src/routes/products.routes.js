@@ -9,7 +9,7 @@ router.get('/cart', mainControllers.cart)
 
 router.get('/productDetail', mainControllers.productDetail)
 
-//router.get('/lista', mainControllers.list) 
+router.get('/lista', mainControllers.list) 
 
 
 
