@@ -113,7 +113,7 @@
       "id": 10,
       "name": "Procesador Intel Core i7 12700F 4.9 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../public/images/productos/procesadorinteli7_12700F.jpeg",
+      "image": "../../images/productos/procesadorinteli7_12700F.jpeg",
       "image-secondary": [
          "../../images/productos/procesadorinteli7_12700F.jpegS1",
          "../../images/productos/procesadorinteli7_12700FS2.jpeg"
@@ -238,61 +238,5 @@
       ],
       "category": "Placas de Video",
       "price": 773999
-   },
-   {
-      "id": 21,
-      "name": "placa de video",
-      "price": 12344,
-      "description": "asdasdasd",
-      "category": "",
-      "image": "default-image.png"
-   },
-   {
-      "id": 22,
-      "name": "placa de video",
-      "price": 60000,
-      "description": "Placa Geforce",
-      "category": "",
-      "image": "default-image.png"
-   },
-   {
-      "id": 23,
-      "name": "placa de video RTX 2060 SUPER",
-      "price": 629999,
-      "description": "Placa Geforce rtx marca gigabyte windforce",
-      "category": "",
-      "image": "default-image.png"
-   },
-   {
-      "id": 24,
-      "name": "d d",
-      "price": 2222,
-      "description": "teclado",
-      "category": "",
-      "image": "default-image.png"
-   },
-   {
-      "id": 25,
-      "name": "teclado",
-      "price": 66666,
-      "description": "grande",
-      "category": "Procesadores",
-      "image": "default-image.png"
-   },
-   {
-      "id": 26,
-      "name": "chalarger",
-      "price": 6655555,
-      "description": "bueno",
-      "category": "Procesadores",
-      "image": "default-image.png"
-   },
-   {
-      "id": 27,
-      "name": "teclado",
-      "price": 555555,
-      "description": "grande",
-      "category": "Memorias Ram",
-      "image": "default-image.png"
    }
 ]
