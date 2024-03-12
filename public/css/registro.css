@@ -169,9 +169,9 @@ margin-left: 12px;
     color: white;
     }
 .form-registre {
-    width: 69%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: row;
     }
 .div-general-registre {

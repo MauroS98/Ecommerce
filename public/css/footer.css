@@ -176,9 +176,8 @@
 @media(min-width: 769px) { 
 
  body{
-   
-    font-family:var(--family-sans);
-    text-transform: capitalize;
+   font-family:var(--family-sans);
+   text-transform: capitalize;
  }
  .container{
     max-width: 100%;
