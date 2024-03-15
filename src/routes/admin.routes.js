@@ -25,7 +25,7 @@ router.get("/crear-producto",mainControllers.create);
 router.post('/crear-producto', upload.single("image"), mainControllers.store); 
 
 
-router.get('/createProduct', mainControllers.createProduct)
+// router.get('/createProduct', mainControllers.createProduct)
 
 
 
