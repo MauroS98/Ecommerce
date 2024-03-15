@@ -225,8 +225,7 @@
       "category": "Placas de Video",
       "price": 1510999
    },
-   {
-   },
+   {},
    {
       "id": 20,
       "name": "Placa De Video Radeon RX 7700 XT 12Gb Gigabyte Gaming Oc",
@@ -238,5 +237,37 @@
       ],
       "category": "Placas de Video",
       "price": 773999
+   },
+   {
+      "id": 21,
+      "name": "teclado",
+      "price": 2333,
+      "description": "jhjhgjhgjgh",
+      "category": "gabinetes",
+      "image": "../../images/productos/default-image.png"
+   },
+   {
+      "id": 22,
+      "name": "sprint 1 alura",
+      "price": 6666666,
+      "description": "malo",
+      "category": "Memorias Ram",
+      "image": "../../images/productos/default-image.png"
+   },
+   {
+      "id": 23,
+      "name": "teclado",
+      "price": 2333,
+      "description": "egrhghgj",
+      "category": "Placas de Video",
+      "image": "../../images/productos/default-image.png"
+   },
+   {
+      "id": 24,
+      "name": "memoria",
+      "price": 9000998,
+      "description": "turbo",
+      "category": "Placas de Video",
+      "image": "../../images/productos/image-1710291660658.jpg"
    }
 ]

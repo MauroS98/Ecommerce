@@ -10,7 +10,7 @@ const newproducto ={
     price: +price,
     description:description.trim(),
     category:category.trim(),
-    image:  "default-image.png",
+    image: req.file? req.file.filename : "default-image.png",
     
 }
 producto.push(newproducto)

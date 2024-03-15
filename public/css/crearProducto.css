@@ -1,14 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
+/* 
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
@@ -147,8 +137,8 @@ font-family: 'Titillium Web';
 font-style: normal;
 font-weight: 300;
 src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
-} 
-@media (min-width: 426px) {
+}  */
+/* @media (min-width: 426px) {
 .btn-primary {
     color: #fff;
     background-color: #0d6efd;
@@ -177,6 +167,7 @@ src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes
         margin: 0% 0% 2% 0%;
         height: 100%;
         width: 100%;
+        margin-left: 23%;
     }
     .formUpdateProduct{
         padding: 20px;
@@ -258,5 +249,10 @@ src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes
             width: 34%;
             font-size: 20px;
         }
-    
-    }
+        .container-products-wrapper{
+            padding: 0%;
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+        }
+    } */
