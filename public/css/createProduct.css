@@ -1,7 +1,7 @@
 
 body {
-    background-color: var(--grisOscuro);
-    color: var(--blanco);
+    background-color: #d9d9d9;
+    color: #ffffff;
 }
 
 .container-fluid {
