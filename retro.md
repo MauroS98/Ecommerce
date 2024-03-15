@@ -11,6 +11,8 @@
 *Daylies o reuniones más seguido para ver el progreso de cada uno.
 
 # Dejar de hacer
+
+
 # Hacer menos
 *No encontramos nada en particular sobre estos 2 temas con respecto al 1er sprint.
 
@@ -30,3 +32,28 @@
 # Hacer menos
 *perder el miedo de hablar y consultar
 todos estamos aprendiendo y vamos por el mismo camino que una duda no sea un impedimento para lograr nuestro objetivo  o/
+
+
+### Retrospectiva con respecto al 3er sprint
+
+# Hacer más
+*Fomentar la comunicación abierta y continua entre los miembros del equipo
+*Dar y recibir retroalimentación de manera regular para mejorar el rendimiento y el desarrollo personal
+*Definir los tiempos para organizarnos y poder aprovechar mejor el tiempo
+*Reconocer y valorar los logros y contribuciones de los miembros del equipo
+
+# Continuar haciendo
+*Mantener un seguimiento de los proyectos para asegurar que avancen según lo planeado
+*colaboración entre los miembros del equipo
+*Incentivar la colaboración en proyectos y tareas para adaptarse mejor
+
+# Comenzar a hacer
+*Implementar reuniones mas continuas para  Establecer y discutir los desafíos / oportunidades de mejora del equipo
+
+# Dejar de hacer
+*Dejar de pasar por alto posibles problemas y abordarlos de manera proactiva como un equipo
+*Postergar las conversaciones difíciles y abordar los problemas de comunicación de manera directa
+
+# Hacer menos
+*Reducir la tendencia a trabajar de forma aislada y fomentar más la colaboración en equipo
+*Hacer menos procrastinación al establecer plazos claros y responsabilidades definidas(soy yo).

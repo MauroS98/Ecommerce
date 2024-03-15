@@ -27,11 +27,11 @@ router.put("/editar-producto/:id", mainControllers.editProduct)
 router.get('/dashboard', mainControllers.dashboard);
 
 router.get("/crear-producto", mainControllers.create);
-router.post('/crear-producto', upload.single("image"), mainControllers.store);
-
 
 router.get('/createProduct', mainControllers.createProduct)
+router.post('/crear-producto', upload.single("image"), mainControllers.store);
 
+router.delete("/eliminar-producto/:id", upload.single("image"), mainControllers.destroy)
 
 
 
