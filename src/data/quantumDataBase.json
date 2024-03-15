@@ -1,9 +1,9 @@
 [
    {
       "id": 1,
-      "name": "GABINETE GAMER CORSAIR ICUE 220T RGB NEGRO",
+      "name": "Gabinete Gamer Corsair ICUE 220T RGB Negro",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/xigmatekgamingx6.jpg",
+      "image": "../../images/productos/xigmatekgamingx6.png",
       "image-secondary": [
          "../../images/productos/xigmatekgamingx6second1.jpg",
          "../../images/productos/xigmatekgamingx6second2.jpg",
@@ -16,7 +16,7 @@
       "id": 2,
       "name": "Gabinete Mid Tower Gamemax Optical Black Argb 4 Fan",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/xigmatekgamingx6.jpg",
+      "image": "../../images/productos/gabineteGameMaxob.jpeg",
       "image-secondary": [
          "../../images/productos/xigmatekgamingx6second1.jpg",
          "../../images/productos/xigmatekgamingx6second2.jpg",
@@ -42,7 +42,7 @@
       "id": 4,
       "name": "Gabinete Mid Tower Corsair 5000X Vidrio Templado Blanco",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/GabineteThermaltakeV200.jpeg",
+      "image": "../../images/productos/GabineteCorsair5000X.jpeg",
       "image-secondary": [
          "../../images/productos/GabineteThermaltakeV200secondary1.jpeg",
          "../../images/productos/GabineteThermaltakeV200secondary2.jpeg",
@@ -224,8 +224,6 @@
       ],
       "category": "Placas de Video",
       "price": 1510999
-   },
-   {
    },
    {
       "id": 20,
