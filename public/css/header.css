@@ -136,7 +136,7 @@ font-family: var(--family-fugazOne);
 background-color: hsl(189.57deg 56.1% 24.12%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 426px) {
     .title-header{
         display: none;
     }
@@ -158,7 +158,7 @@ background-color: hsl(189.57deg 56.1% 24.12%);
       }
   }
   
-  @media only screen and (min-width: 600px) and (max-width: 960px) {
+  @media only screen and (min-width: 426px) and (max-width: 769px) {
    .title-header{
     display: none;
    }
@@ -174,7 +174,7 @@ background-color: hsl(189.57deg 56.1% 24.12%);
     }
   }
   
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 769px) {
    
     .search-bar {
       width: 330px;
