@@ -8,9 +8,6 @@ body .updateProduct{
     width: 100%;
     font-family:var(--family-sans);
 }
-.updateProduct-ID{
-    width: 14%;
-}
 .updateProduct-container {
     padding: 5%;
     margin: 0% 0% 2% 0%;
@@ -20,15 +17,20 @@ body .updateProduct{
 .formUpdateProduct{
     text-align: center;
     margin: 0%;
-    padding: 20px;
+    padding: 0px;
     border: 1px solid var(--celeste);
 }
-.updateProduct-mb-4, .my-4 {
+.UpdateProduct-title{
     text-align: center;
-    text-shadow: 1px 2px 2px var(--celeste);
+    font-size: 50px;
 }
-.updateProduct-btn-primary {
-    margin-left: 21%;
+.saveButton{
+    text-align: center;
+} 
+.btn-success {
+    color: #fff;
+    background-color: var(--celeste);
+    border-color: var(--bs-cyan);
 }
 
 }
@@ -54,15 +56,17 @@ body .updateProduct{
         border: 1px solid var(--celeste);
         margin-bottom: 8%;
     }
-    .updateProduct-mb-4, .my-4 {
-        font-size: 55px;
+    .UpdateProduct-title{
         text-align: center;
-        text-shadow: 1px 2px 2px var(--celeste);
+        font-size: 50px;
     }
-    .updateProduct-btn-primary {
-        margin-left: 33%;
-        width: 34%;
-        font-size: 20px;
+    .saveButton{
+        text-align: center;
+    }
+    .btn-success {
+        color: #fff;
+        background-color: var(--celeste);
+        border-color: var(--bs-cyan);
     }
 
 }
@@ -73,13 +77,21 @@ body .updateProduct{
 
 @media(min-width:769px) {
     
+    .UpdateProduct-title{
+        text-align: center;
+        font-size: 50px;
+    }
+    .saveButton{
+        text-align: center;
+    }
     body .updateProduct-{
         height: 100%;
         width: 100%;
         font-family:var(--family-sans);
     }
     .updateProduct-container {
-        padding: 5%;
+        background: var(--grisOscuro);
+        padding: 5% 5% 5% 5%;
         height: 100%;
         width: 100%;
     }
@@ -88,15 +100,13 @@ body .updateProduct{
         border: 2px solid var(--celeste);
         margin-bottom: 8%;
     }
-    .updateProduct-mb-4, .my-4 {
-        font-size: 55px;
-        text-align: center;
-        text-shadow: 1px 2px 2px var(--celeste);
-    }
-    .updateProduct-btn-primary {
-        margin-left: 33%;
-        width: 34%;
+    .form-label{
         font-size: 20px;
     }
-
+    .btn-success {
+        color: #fff;
+        background-color: var(--celeste);
+        border-color: var(--bs-cyan);
+    }
+    
 }

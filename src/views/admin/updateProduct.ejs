@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> -->
+       <link rel="stylesheet" href="https://api.mockaroo.com/api/0b5f3440?count=30&key=null" > 
+       <link rel="icon" href="../../images/otros/Logo.ico" type="">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Editar Producto</title>
+</head>
+
+<body>
+    
+<main>
+    <div class="updateProduct-container">
+        <div class="row">
+            <div class="col-12">
+            <h2 class="UpdateProduct-title">Editar Productos</h2>
+            </div>
+        </div>
+        <div class="formUpdateProduct col-12">
+            <form action="editar-producto>" method="post" enctype="multipart/form-data" >
+                <div class="row product-detail">
+                    <div class="col-12 col-md-12">
+                        <label for="name" class="form-label">Nombre del producto:</label>
+                        <input type="text" id="name" name="name" placeholder="" class="form-input">
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <label for="price" class="form-label">Precio del producto:</label>
+                        <input type="number" id="price" name="price" placeholder= "" class="form-input">
+                    </div>
+                    <div class="col-12  ">
+                        <label for="description" class="form-label">Descipción:</label>
+                        <textarea name="description" id="description" class="form-input"></textarea>
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <label for="image" class="form-label">image:</label>
+                        <input type="file" id="discount" name="image" placeholder= "" class="form-input">
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <label for="image" class="form-label">image-secondary:</label>
+                        <input type="file" id="discount" name="image-secondary" placeholder= "" class="form-input">
+                    </div>
+                  
+                    <div class="col-12 col-md-6">
+                        <label for="category" class="form-label">Categoría:</label>
+                        <select name="category" id="category" class="form-input"  >
+                            <option  value="" selected hidden>seleccionar</option>
+                            <option  value="gabinetes" >gabinetes</option>
+                            <option value="Procesadores">Procesadores</option>
+                            <option value="Memorias Ram">Memorias Ram</option>
+                            <option value="Placas de Video">Placas de Video</option>
+                        </select>
+                    </div>
+                    <div class="saveButton col-12">
+                        <button type="submit" class="mb-3 btn btn-success col-4">Editar Producto</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+ 
+</main>
+
+</body>
+
+</html>

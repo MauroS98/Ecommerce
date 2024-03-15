@@ -16,11 +16,11 @@ module.exports = (req, res) => {
         ...p, 
         name: name.trim(),
         description: description.trim(),
-        imagePrincipal: req.files.imagePrincipal?.length
+        /* imagePrincipal: req.files.imagePrincipal?.length
             ? req.files.imagePrincipal[0]?.filename
             : p.imagePrincipal,
         imagesSecondary: newImages.length ? newImages : p.imagesSecondary,
-        image: req.file ? req.file.filename : p.image,
+        */image: req.file ? req.file.filename : p.image,
         category: category.trim(),
         price:+price,
       };
