@@ -11,5 +11,7 @@ module.exports = {
     listProducts: require('../admin.controllers/listProducts.controller'),
     header: require('../header.controllers/header.controller'),
     head: require('../header.controllers/head'),
-    list: require ("../products.controllers/list.controller")
+    create: require("../admin.controllers/create.controller"),
+    store:require("../admin.controllers/store.controller"),
+    list: require("../products.controllers/list.controller")
 }
