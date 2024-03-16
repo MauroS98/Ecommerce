@@ -1,5 +1,7 @@
+const { loadData} = require("../../data/index")
+
 module.exports = (req, res) => {
-    const products = require("../../database/products.json"); 
+    const products = loadData()
     const { id } = req.params; 
     const product = products.find((p) => p.id === +id); 
   
