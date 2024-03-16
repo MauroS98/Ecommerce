@@ -269,13 +269,5 @@
       "description": "turbo",
       "category": "Placas de Video",
       "image": "../../images/productos/image-1710291660658.jpg"
-   },
-   {
-      "id": 25,
-      "name": "teclado",
-      "price": 2333,
-      "description": "ffbbfgh",
-      "category": "Placas de Video",
-      "image": "image-1710550016761.jpeg"
    }
 ]

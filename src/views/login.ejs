@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <%- include('./partials/head') %>
+</head>
+<body>
+    <%- include('./partials/header') %>
+    <main>
+
+            <section class="main-login">
+            
+                <h2 class="subtitulo-login">iniciar sesion</h2>
+        
+        
+                <form class="form-login" action="/" method="POST">
+                    <div class="div-general-login">
+        
+                        <i id="fa-envelope-login" class=" fa-solid fa-envelope"></i>
+                        <input class="input-login" type="email" placeholder="E-mail" name="email" required>
+        
+        
+                        <div class="div-key-login">
+                            <i id="fa-key-login" class="fa-solid fa-key"></i>
+                            <input class="key-login" type="Password" placeholder="Password" name="Password" required>
+                        </div>
+        
+                        <div class="boton-login">
+                            <butoon class="usuario-boton-login" type="submit" href="/">INGRESAR</butoon>
+                        </div>
+                       <a class="link-login" href="/authentication/register"><h3 class="sub-title">REGISTRATE</h3></a>
+                       <marquee class="bienvenido" behavior="" direction="">BIENVENIDOS A QUAMTUM PC</marquee>
+                    </div>
+                </form>
+        
+            </section>
+        </div>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+
+</html>
