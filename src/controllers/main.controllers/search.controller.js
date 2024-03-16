@@ -10,7 +10,7 @@ module.exports = (req, res) => {
       p.name.toLowerCase().includes(keywords.toLowerCase()) ||
       p.description.toLowerCase().includes(keywords.toLowerCase())
   );
-  res.render("other/results", {
+  res.render("/lista", {
     products: productsFilter,
     keywords,
     toThousand,
