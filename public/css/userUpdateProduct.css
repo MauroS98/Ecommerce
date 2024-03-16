@@ -75,7 +75,9 @@ body{
     .container {
         padding: 0%;
         height: 100%;
-        width: 100%;
+        width: 85%;
+        margin-left: 260px;
+        background: var(--totalwhite);
     }
     .formUpdateProduct{
         padding: 20px;
