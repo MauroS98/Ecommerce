@@ -56,4 +56,4 @@ todos estamos aprendiendo y vamos por el mismo camino que una duda no sea un imp
 
 # Hacer menos
 *Reducir la tendencia a trabajar de forma aislada y fomentar más la colaboración en equipo
-*Hacer menos procrastinación al establecer plazos claros y responsabilidades definidas(soy yo)
+*Hacer menos procrastinación al establecer plazos claros y responsabilidades definidas(soy yo).

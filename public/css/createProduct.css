@@ -1,7 +1,7 @@
 
 body {
     background-color: #d9d9d9;
-    color: #ffffff;
+    color: #000000;
 }
 
 .container-fluid {
@@ -13,8 +13,8 @@ body {
 }
 
 .form-control {
-    background-color: var(--blanco);
-    color: var(--blanco);
+    background-color: #ffffff;
+    color: var(--grisOscuro);
 }
 
 .btn-primary {
