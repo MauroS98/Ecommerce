@@ -1,5 +1,6 @@
 module.exports = {
     index: require('../main.controllers/index.controller'),
+    search:require("../main.controllers/search.controller"),
     cart: require('./cart.controller'),
     productDetail: require('./product.detail.controller'),
     login: require('../authentication.controllers/login.controller'),

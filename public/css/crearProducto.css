@@ -5,11 +5,15 @@
 .form-label {
         margin-bottom: 2.5rem;
     }
-.form-p{
-    
+    .form-input{
+        
     }
-.imagen-secundary{
-
+.div-category{
+    margin-bottom: 12px;
+   
+    }
+.select{
+    margin-bottom: 12px;
     }
 .boton{
 background-color: blue;
