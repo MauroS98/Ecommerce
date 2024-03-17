@@ -10,6 +10,6 @@ module.exports = {
     saveData:(data, filenameJSON = "quantumDataBase" )=>{
         const pathJSON = path.join(__dirname,`${filenameJSON}.json`);
         const dataString = JSON.stringify(data, null, 3);
-        fs.writeFileSync(pathJSON,dataString,'utf-8');
+        fs.writeFileSync(pathJSON,dataString,'utf-8'); 
     },
 };
