@@ -24,6 +24,8 @@ const productRoutes = require('./routes/products.routes')
 const authenticationRoutes = require('./routes/authentication.routes')
 const adminRoutes = require('./routes/admin.routes')
 
+
+
 app.use('/', mainRoutes)
 
 app.use('/products', productRoutes)

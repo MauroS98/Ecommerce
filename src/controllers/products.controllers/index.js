@@ -4,7 +4,7 @@ module.exports = {
     cart: require('./cart.controller'),
     productDetail: require('./product.detail.controller'),
     login: require('../authentication.controllers/login.controller'),
-    register: require('../authentication.controllers/register'),
+    register: require('../authentication.controllers/register.controller'),
     dashboard: require('../admin.controllers/dashboard.controller'),
     createProduct: require('../admin.controllers/createProduct.controller'),
     updateProduct: require('../admin.controllers/updateProduct.controller'),
