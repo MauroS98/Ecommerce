@@ -5,6 +5,6 @@ const mainControllers = require('../controllers/products.controllers')
 
 router.get('/login', mainControllers.login)
 
-router.get('/register', mainControllers.register)
-
+router.get('/registor', mainControllers.register)
+router.post("/registro", registerValidation ,registerProcess)
 module.exports = router
