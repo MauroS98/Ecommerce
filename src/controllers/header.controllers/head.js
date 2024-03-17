@@ -1,4 +1,4 @@
 module.exports = (req, res) => {
-    res.render('head')
+    res.render('head') 
     
 }
