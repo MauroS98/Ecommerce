@@ -71,7 +71,7 @@ font-family: var(--family-fugazOne);
 .user-actions #users-button {
   background-color: hsl(189.57deg 56.1% 24.12%);
   color: white;
-  padding: 8px 15px;
+
   border: 2px; 
   border-radius: 5px;
   margin-right: 10px;
@@ -81,7 +81,7 @@ font-family: var(--family-fugazOne);
 .user-actions #shoppings-button{
   background-color: hsl(189.57deg 56.1% 24.12%);
   color: white;
-  padding: 8px 15px;
+
   border: 2px; 
   border-radius: 5px;
   margin-right: 10px;
