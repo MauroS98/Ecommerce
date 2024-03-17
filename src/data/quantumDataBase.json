@@ -255,14 +255,6 @@
       "image": "../../images/productos/default-image.png"
    },
    {
-      "id": 23,
-      "name": "teclado",
-      "price": 2333,
-      "description": "egrhghgj",
-      "category": "Placas de Video",
-      "image": "../../images/productos/default-image.png"
-   },
-   {
       "id": 24,
       "name": "memoria",
       "price": 9000998,
