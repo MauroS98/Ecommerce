@@ -14,6 +14,6 @@ module.exports = {
     create: require("../admin.controllers/create.controller"),
     store:require("../admin.controllers/store.controller"),
     list: require("../products.controllers/list.controller"),
-    destroy: require("../admin.controllers/destroy.controller")
-    
+    destroy: require("../admin.controllers/destroy.controller"),
+
 }

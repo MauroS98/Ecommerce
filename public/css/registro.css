@@ -199,8 +199,8 @@ box-shadow: 19px 11px 1px 1px;
     }
 .boton-registre {
     margin-top: 9%;
-    width: 39%;
-    margin-left: 36%;
+    width: 70%;
+    margin-left: 18%;
     }
 .usuario-boton-registre {
     margin-left: 0%;
@@ -223,4 +223,7 @@ margin-left: 11px;
     margin-top: 11px;
     margin-left: 11px;
     } 
+.form-text{
+    color:brown
+}    
 }
