@@ -3,7 +3,6 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 module.exports = (req, res) => {
     const products = loadData()
-    const products = require("../../data/quantumDataBase.json"); 
     const { id } = req.params; 
     const product = products.find((p) => p.id === +id); 
   
