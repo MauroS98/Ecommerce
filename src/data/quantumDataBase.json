@@ -3,11 +3,11 @@
       "id": 1,
       "name": "Gabinete Gamer Corsair ICUE 220T RGB Negro",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/xigmatekgamingx6.png",
+      "image": "xigmatekgamingx6.png",
       "image-secondary": [
-         "../../images/productos/xigmatekgamingx6second1.jpg",
-         "../../images/productos/xigmatekgamingx6second2.jpg",
-         "../../images/productos/xigmatekgamingx6second3.jpg"
+         "xigmatekgamingx6second1.jpg",
+         "xigmatekgamingx6second2.jpg",
+         "xigmatekgamingx6second3.jpg"
       ],
       "category": "gabinetes",
       "price": 82299
@@ -16,11 +16,11 @@
       "id": 2,
       "name": "Gabinete Mid Tower Gamemax Optical Black Argb 4 Fan",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/gabineteGameMaxob.jpeg",
+      "image": "gabineteGameMaxob.jpeg",
       "image-secondary": [
-         "../../images/productos/xigmatekgamingx6second1.jpg",
-         "../../images/productos/xigmatekgamingx6second2.jpg",
-         "../../images/productos/xigmatekgamingx6second3.jpg"
+         "xigmatekgamingx6second1.jpg",
+         "xigmatekgamingx6second2.jpg",
+         "xigmatekgamingx6second3.jpg"
       ],
       "category": "gabinetes",
       "price": 84479
@@ -29,11 +29,11 @@
       "id": 3,
       "name": "Gabinete Mid Tower Thermaltake View 200",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/GabineteThermaltakeV200.jpeg",
+      "image": "GabineteThermaltakeV200.jpeg",
       "image-secondary": [
-         "../../images/productos/GabineteThermaltakeV200secondary1.jpeg",
-         "../../images/productos/GabineteThermaltakeV200secondary2.jpeg",
-         "../../images/productos/GabineteThermaltakeV200secondary3.jpeg"
+         "GabineteThermaltakeV200secondary1.jpeg",
+         "GabineteThermaltakeV200secondary2.jpeg",
+         "GabineteThermaltakeV200secondary3.jpeg"
       ],
       "category": "gabinetes",
       "price": 100999
@@ -42,11 +42,11 @@
       "id": 4,
       "name": "Gabinete Mid Tower Corsair 5000X Vidrio Templado Blanco",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/GabineteCorsair5000X.jpeg",
+      "image": "GabineteCorsair5000X.jpeg",
       "image-secondary": [
-         "../../images/productos/GabineteThermaltakeV200secondary1.jpeg",
-         "../../images/productos/GabineteThermaltakeV200secondary2.jpeg",
-         "../../images/productos/GabineteThermaltakeV200secondary3.jpeg"
+         "GabineteThermaltakeV200secondary1.jpeg",
+         "GabineteThermaltakeV200secondary2.jpeg",
+         "GabineteThermaltakeV200secondary3.jpeg"
       ],
       "category": "gabinetes",
       "price": 314999
@@ -55,10 +55,10 @@
       "id": 5,
       "name": "Procesador Amd Ryzen 3 4100 4.0 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/ProcesadorAmdRyzen3-4100.jpeg",
+      "image": "ProcesadorAmdRyzen3-4100.jpeg",
       "image-secondary": [
-         "../../images/productos/ProcesadorAmdRyzen3-4100S1.jpeg",
-         "../../images/productos/ProcesadorAmdRyzen3-4100S2.jpeg"
+         "ProcesadorAmdRyzen3-4100S1.jpeg",
+         "ProcesadorAmdRyzen3-4100S2.jpeg"
       ],
       "category": "Procesadores",
       "price": 99899
@@ -67,10 +67,10 @@
       "id": 6,
       "name": "Procesador Amd Ryzen 5 5600X 3.7 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/ProcesadorAmdRyzen5-5600X.jpeg",
+      "image": "ProcesadorAmdRyzen5-5600X.jpeg",
       "image-secondary": [
-         "../../images/productos/ProcesadorAmdRyzen5-5600XS1.jpeg",
-         "../../images/productos/ProcesadorAmdRyzen5-5600XS2.jpeg"
+         "ProcesadorAmdRyzen5-5600XS1.jpeg",
+         "ProcesadorAmdRyzen5-5600XS2.jpeg"
       ],
       "category": "Procesadores",
       "price": 249899
@@ -79,9 +79,9 @@
       "id": 7,
       "name": "Procesador Amd Ryzen 7 5700X",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/ProcesadorAmdRyzen7-5700X.jpeg",
+      "image": "ProcesadorAmdRyzen7-5700X.jpeg",
       "image-secondary": [
-         "../../images/productos/ProcesadorAmdRyzen7-5700XS1.jpeg"
+         "ProcesadorAmdRyzen7-5700XS1.jpeg"
       ],
       "category": "Procesadores",
       "price": 477839
@@ -90,10 +90,10 @@
       "id": 8,
       "name": "Procesador Intel Core i3 10105 4.4 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/procesadorcpuinteli3_10105.jpeg",
+      "image": "procesadorcpuinteli3_10105.jpeg",
       "image-secondary": [
-         "../../images/productos/procesadorcpuinteli3_10105S1.jpeg",
-         "../../images/productos/procesadorcpuinteli3_10105S2.jpeg"
+         "procesadorcpuinteli3_10105S1.jpeg",
+         "procesadorcpuinteli3_10105S2.jpeg"
       ],
       "category": "Procesadores",
       "price": 162499
@@ -102,9 +102,9 @@
       "id": 9,
       "name": "Procesador Intel Core i5 12400 4.4 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/procesadorcpuinteli5_12400.jpeg",
+      "image": "procesadorcpuinteli5_12400.jpeg",
       "image-secondary": [
-         "../../images/productos/procesadorcpuinteli5_12400S1.jpeg"
+         "procesadorcpuinteli5_12400S1.jpeg"
       ],
       "category": "Procesadores",
       "price": 289999
@@ -113,10 +113,10 @@
       "id": 10,
       "name": "Procesador Intel Core i7 12700F 4.9 Ghz",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/procesadorinteli7_12700F.jpeg",
+      "image": "procesadorinteli7_12700F.jpeg",
       "image-secondary": [
-         "../../images/productos/procesadorinteli7_12700F.jpegS1",
-         "../../images/productos/procesadorinteli7_12700FS2.jpeg"
+         "procesadorinteli7_12700F.jpegS1",
+         "procesadorinteli7_12700FS2.jpeg"
       ],
       "category": "Procesadores",
       "price": 449999
@@ -125,9 +125,9 @@
       "id": 11,
       "name": "Memoria Ram DDR4 - 8Gb 3200 Mhz Kingston Fury Beast Rgb",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/KingstonFuryBeastRgb.jpeg",
+      "image": "KingstonFuryBeastRgb.jpeg",
       "image-secondary": [
-         "../../images/productos/KingstonFuryBeastRgbS1.jpeg"
+         "KingstonFuryBeastRgbS1.jpeg"
       ],
       "category": "Memorias Ram",
       "price": 36999
@@ -136,9 +136,9 @@
       "id": 12,
       "name": "Memoria Ram DDR4 - 8Gb 3200 Mhz Corsair Vengeance Rgb Pro",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/CorsairVengeanceRgbPro.jpeg",
+      "image": "CorsairVengeanceRgbPro.jpeg",
       "image-secondary": [
-         "../../images/productos/CorsairVengeanceRgbProS1.jpeg"
+         "CorsairVengeanceRgbProS1.jpeg"
       ],
       "category": "Memorias Ram",
       "price": 36999
@@ -147,9 +147,9 @@
       "id": 13,
       "name": "Memoria Ram DDR4 - 8Gb 3200 Mhz Xpg Spectrix D41 Rgb",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/XpgSpectrixD41Rgb.jpeg",
+      "image": "XpgSpectrixD41Rgb.jpeg",
       "image-secondary": [
-         "../../images/productos/XpgSpectrixD41RgbS1.jpeg"
+         "XpgSpectrixD41RgbS1.jpeg"
       ],
       "category": "Memorias Ram",
       "price": 36699
@@ -158,9 +158,9 @@
       "id": 14,
       "name": "Memoria Ram DDR4 - 8Gb 3200 Mhz Xpg Spectrix D60G Rgb",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/XpgSpectrixD60GRgb.jpeg",
+      "image": "XpgSpectrixD60GRgb.jpeg",
       "image-secondary": [
-         "../../images/productos/XpgSpectrixD60GRgbS1.jpeg"
+         "XpgSpectrixD60GRgbS1.jpeg"
       ],
       "category": "Memorias Ram",
       "price": 42999
@@ -169,10 +169,10 @@
       "id": 15,
       "name": "Placa De Video LHR GeForce RTX 3050 8Gb Msi Ventus 2x Xs Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc.jpeg",
+      "image": "RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc-S1.jpeg",
-         "../../images/productos/RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc-S2.jpeg"
+         "RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc-S1.jpeg",
+         "RTX-3050-8Gb-Msi-Ventus-2x-Xs-Oc-S2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 395999
@@ -181,10 +181,10 @@
       "id": 16,
       "name": "Placa De Video GeForce RTX 4060 Ti 8Gb Gigabyte Gaming Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RTX-4060-Ti-8Gb-Gigabyte-Gaming-Oc.jpeg",
+      "image": "RTX-4060-Ti-8Gb-Gigabyte-Gaming-Oc.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-4060-Ti-8Gb-Gigabyte-Gaming-OcS1.jpeg",
-         "../../images/productos/RTX-4060-Ti-8Gb-Gigabyte-Gaming-OcS2.jpeg"
+         "RTX-4060-Ti-8Gb-Gigabyte-Gaming-OcS1.jpeg",
+         "RTX-4060-Ti-8Gb-Gigabyte-Gaming-OcS2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 739999
@@ -193,10 +193,10 @@
       "id": 17,
       "name": "Placa De Video GeForce RTX 4060 Ti 8Gb Msi Ventus 3X Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RTX-4060-Ti-8Gb-Msi-Ventus-3X-Oc.jpeg",
+      "image": "RTX-4060-Ti-8Gb-Msi-Ventus-3X-Oc.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-4060-Ti-8Gb-Msi-Ventus-3X-OcS1.jpeg",
-         "../../images/productos/RTX-4060-Ti-8Gb-Msi-Ventus-3X-OcS2.jpeg"
+         "RTX-4060-Ti-8Gb-Msi-Ventus-3X-OcS1.jpeg",
+         "RTX-4060-Ti-8Gb-Msi-Ventus-3X-OcS2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 667799
@@ -205,9 +205,9 @@
       "id": 18,
       "name": "Placa De Video GeForce RTX 4070 12Gb Super Msi Ventus 3x Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OC.jpeg",
+      "image": "RTX-4070-12Gb-Super-Msi-Ventus-3x-OC.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS1.jpeg",
+         "RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS1.jpeg",
          "../../public/images/productos/RTX-4070-12Gb-Super-Msi-Ventus-3x-OCS2.jpeg"
       ],
       "category": "Placas de Video",
@@ -217,10 +217,10 @@
       "id": 19,
       "name": "Placa De Video GeForce RTX 4070 Ti 16Gb Super Gigabyte Windforce Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-Oc.jpeg",
+      "image": "RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-Oc.jpeg",
       "image-secondary": [
-         "../../images/productos/RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-OcS1.jpeg",
-         "../../images/productos/RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-OcS2.jpeg"
+         "RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-OcS1.jpeg",
+         "RTX-4070-Ti-16Gb-Super-Gigabyte-Windforce-OcS2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 1510999
@@ -230,10 +230,10 @@
       "id": 20,
       "name": "Placa De Video Radeon RX 7700 XT 12Gb Gigabyte Gaming Oc",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nihil iure ullam, nam consequatur, quam consectetur praesentium expedita ratione quidem dicta fugiat assumenda saepe aliquam! Beatae iure reprehenderit accusamus distinctio?",
-      "image": "../../images/productos/RX-7700-XT-12Gb-Gigabyte-Gaming-Oc.jpeg",
+      "image": "RX-7700-XT-12Gb-Gigabyte-Gaming-Oc.jpeg",
       "image-secondary": [
-         "../../images/productos/RX-7700-XT-12Gb-Gigabyte-Gaming-OcS1.jpeg",
-         "../../images/productos/RX-7700-XT-12Gb-Gigabyte-Gaming-OcS2.jpeg"
+         "RX-7700-XT-12Gb-Gigabyte-Gaming-OcS1.jpeg",
+         "RX-7700-XT-12Gb-Gigabyte-Gaming-OcS2.jpeg"
       ],
       "category": "Placas de Video",
       "price": 773999
@@ -244,7 +244,7 @@
       "price": 2333,
       "description": "jhjhgjhgjgh",
       "category": "gabinetes",
-      "image": "../../images/productos/default-image.png"
+      "image": "default-image.png"
    },
    {
       "id": 22,
@@ -252,7 +252,7 @@
       "price": 6666666,
       "description": "malo",
       "category": "Memorias Ram",
-      "image": "../../images/productos/default-image.png"
+      "image": "default-image.png"
    },
    {
       "id": 24,
@@ -260,6 +260,54 @@
       "price": 9000998,
       "description": "turbo",
       "category": "Placas de Video",
-      "image": "../../images/productos/image-1710291660658.jpg"
+      "image": "image-1710291660658.jpg"
+   },
+   {
+      "id": 25,
+      "name": "gabinete",
+      "price": 2333,
+      "description": "bueno con garantia",
+      "category": "gabinetes",
+      "image": "image-1710720280108.jpeg"
+   },
+   {
+      "id": 26,
+      "name": "gabinete",
+      "price": 2333,
+      "description": "bueno con garantia",
+      "category": "gabinetes",
+      "image": "image-1710720337590.jpeg"
+   },
+   {
+      "id": 27,
+      "name": "gabinete",
+      "price": 88888,
+      "description": "hpyope",
+      "category": "gabinetes",
+      "image": "image-1710720574898.jpeg"
+   },
+   {
+      "id": 28,
+      "name": "gabinete",
+      "price": 99999,
+      "description": "miloescopion",
+      "category": "gabinetes",
+      "image": "image-1710720699520.jpeg"
+   },
+   {
+      "id": 29,
+      "name": "gabinete",
+      "price": 99999,
+      "description": "miloescopion",
+      "category": "gabinetes",
+      "image": "image-1710720733236.jpeg"
+   },
+   {
+      "id": 30,
+      "name": "gabinete",
+      "price": 666666,
+      "description": "ggdgfdghgh",
+      "category": "gabinetes",
+      "image": "image-1710799973211.jpeg"
    }
 ]

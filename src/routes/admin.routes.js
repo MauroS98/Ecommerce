@@ -1,22 +1,11 @@
 const express = require('express');
 const router = express.Router()
-const multer = require("multer")
-const path = require("path")
 
 const mainControllers = require('../controllers/products.controllers')
-const { create, store, } = require("../controllers/admin.controllers")
+const { create, store, } = require("../controllers/admin.controllers");
+const { upload } = require('../middlewares/upload');
 
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, path.join(__dirname, '../../public/images/productos'))
-    },
-    filename: function (req, file, cb) {
-        const formatFilename = file.fieldname + '-' + Date.now() + path.extname(file.originalname)
-        cb(null, formatFilename)
-    }
-});
 
-const upload = multer({ storage })
 // "/admin"
 
 router.get("/lista-producto", mainControllers.listProducts);
