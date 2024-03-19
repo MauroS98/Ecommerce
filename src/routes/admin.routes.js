@@ -10,7 +10,7 @@ const { upload } = require('../middlewares/upload');
 
 router.get("/lista-producto", mainControllers.listProducts);
 router.get("/search",mainControllers. search);
-router.get("/editar-producto/:id", mainControllers.updateProduct);
+router.get("./editar-producto/:id", mainControllers.updateProduct);
 router.get('/dashboard', mainControllers.dashboard);
 
 router.get("/crear-producto", mainControllers.create);

@@ -301,5 +301,13 @@
       "description": "muy bueno",
       "category": "gabinetes",
       "image": "image-1710810867279.jpeg"
+   },
+   {
+      "id": 32,
+      "name": "procesador",
+      "price": 3566666666,
+      "description": "terrible",
+      "category": "Procesadores",
+      "image": "image-1710817274039.jpeg"
    }
 ]
