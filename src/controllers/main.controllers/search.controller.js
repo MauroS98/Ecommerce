@@ -7,10 +7,10 @@ module.exports = (req, res) => {
   const products = loadData();
   const productsFilter = products.filter(
     (p) =>
-      p.name.toLowerCase().includes(keywords.toLowerCase()) ||
-      p.description.toLowerCase().includes(keywords.toLowerCase())
+      p.name?.toLowerCase().includes(keywords.toLowerCase()) ||
+      p.description?.toLowerCase().includes(keywords.toLowerCase())
   );
-  res.render("/lista", {
+  res.render("resultSearch", {
     products: productsFilter,
     keywords,
     toThousand,
