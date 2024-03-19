@@ -2,13 +2,14 @@ const express = require('express');
 const router = express.Router()
 
 const mainControllers = require('../controllers/products.controllers')
-const { create, store, } = require("../controllers/admin.controllers");
+const { create, store,search } = require("../controllers/admin.controllers");
 const { upload } = require('../middlewares/upload');
 
 
 // "/admin"
 
 router.get("/lista-producto", mainControllers.listProducts);
+router.get("/search",mainControllers. search);
 router.get("/editar-producto/:id", mainControllers.updateProduct);
 router.get('/dashboard', mainControllers.dashboard);
 

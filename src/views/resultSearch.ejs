@@ -9,25 +9,34 @@
         <%- include('./partials/header') %>
 
             <main>
-                <h2 class="products-tittle">Producto con la palabra: <%= keywords %></h2>
-                <section class="cards-container">
-                    <% products.forEach(p=> { %>
-                        <article class="product-card-no-swiper">
-                            <div class="img-content">
-                                <img src="/images/productos/<%= p.image %>" alt="img-producto">
-                            </div>
-                            <div class="product-info">
-                                <h3>
-                                    <%= p.name %>
-                                </h3>
-                                <h2 class="price">
-                                    $<%= toThousand(p.price) %>
-                                </h2>
-                            </div>
-                        </article>
 
-                        <% }) %>
-                </section>
+                <h2 class="products-tittle">Producto con la palabra: <%= keywords %></h2>
+
+               <% if (products.length) { %>
+                
+                                <section class="cards-container">
+                                    <% products.forEach(p=> { %>
+                                        <article class="product-card-no-swiper">
+                                            <div class="img-content">
+                                                <img src="/images/productos/<%= p.image %>" alt="img-producto">
+                                            </div>
+                                            <div class="product-info">
+                                                <h3>
+                                                    <%= p.name %>
+                                                </h3>
+                                                <h2 class="price">
+                                                    $<%= toThousand(p.price) %>
+                                                </h2>
+                                            </div>
+                                        </article>
+                
+                                        <% }) %>
+                                </section>
+                
+               <% } else { %>
+                <h5 class="products-tittle">No existen coincidencias...</h5>
+               <% }  %>
+                 
                
 
             </main>

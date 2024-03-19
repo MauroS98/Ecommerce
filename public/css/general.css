@@ -13,6 +13,14 @@
     'DM Sans', sans-serif;
     --family-fugazOne:
     'Fugaz One', sans-serif;
+    
+        --color-fondo: #ffffff; /* Color de fondo para el tema claro */
+        --color-texto: #000000; /* Color de texto para el tema claro */
+      
+      [data-theme="dark"] {
+        --color-fondo: #000000; /* Color de fondo para el tema oscuro */
+        --color-texto: #ffffff; /* Color de texto para el tema oscuro */
+      }
  }
 
 

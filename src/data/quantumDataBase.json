@@ -239,22 +239,6 @@
       "price": 773999
    },
    {
-      "id": 21,
-      "name": "teclado",
-      "price": 2333,
-      "description": "jhjhgjhgjgh",
-      "category": "gabinetes",
-      "image": "default-image.png"
-   },
-   {
-      "id": 22,
-      "name": "sprint 1 alura",
-      "price": 6666666,
-      "description": "malo",
-      "category": "Memorias Ram",
-      "image": "default-image.png"
-   },
-   {
       "id": 24,
       "name": "memoria",
       "price": 9000998,
@@ -309,5 +293,13 @@
       "description": "ggdgfdghgh",
       "category": "gabinetes",
       "image": "image-1710799973211.jpeg"
+   },
+   {
+      "id": 31,
+      "name": "gabinete",
+      "price": 233300000,
+      "description": "muy bueno",
+      "category": "gabinetes",
+      "image": "image-1710810867279.jpeg"
    }
 ]
