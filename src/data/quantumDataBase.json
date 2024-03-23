@@ -239,14 +239,6 @@
       "price": 773999
    },
    {
-      "id": 24,
-      "name": "memoria",
-      "price": 9000998,
-      "description": "turbo",
-      "category": "Placas de Video",
-      "image": "image-1710291660658.jpg"
-   },
-   {
       "id": 25,
       "name": "gabinete",
       "price": 2333,
@@ -309,5 +301,21 @@
       "description": "terrible",
       "category": "Procesadores",
       "image": "image-1710817274039.jpeg"
+   },
+   {
+      "id": 33,
+      "name": "procesador",
+      "price": 2333,
+      "description": "muy bueno",
+      "category": "Procesadores",
+      "image": "image-1710863170992.jpeg"
+   },
+   {
+      "id": 34,
+      "name": "gabinete",
+      "price": 353656675,
+      "description": "BUENO",
+      "category": "Procesadores",
+      "image": "image-1710891423500.jpeg"
    }
 ]

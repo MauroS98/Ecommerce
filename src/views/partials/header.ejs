@@ -8,7 +8,8 @@
         <div class="search-bar">
           <form action="/buscar" method="GET" class="search-form">
             <input type="text" name="keywords" placeholder="Buscar productos, marcas y más" class="search-form_input">
-            <button type="submit" class="search-form_button"><i class="fas fa-search"></i></button>
+            <!-- <button type="submit" class="search-form_button"></button> -->
+            <i  id="lupa" class="fas fa-search"></i>
           </form>
         </div>
         <div class="user-actions">
@@ -19,11 +20,11 @@
             <button id="shoppings-button"><i class="fa-solid fa-cart-shopping"></i><h3>Carrito</h3></button>
           </a>  
         </div>
-    </header>
-    <div id="burger-menu">
-        <button id="burger"><i class="fa-solid fa-bars barras"></i></button>
+        <div id="burger-menu">
+          <button id="burger"><i class="fa-solid fa-bars barras"></i></button>
+        </div>
       </div>
-    </div>
+    </header>
     <nav class="product-categories-nav">
         <ul class="product-categories">
             <li><a href="/products/lista">Todos los Productos </a></li>
@@ -31,6 +32,6 @@
             <li><a href="#">Periféricos</a></li>
             <li><a href="#">Notebooks</a></li>
             <li><a href="/admin/lista-producto#">DASHBOARD</a></li>
-        </ul>
-    
-    </nav>
+          </ul>
+          
+        </nav>

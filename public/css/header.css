@@ -58,34 +58,42 @@ font-family: var(--family-fugazOne);
   border: none; 
   border-radius: 3px; 
   width: 100%;
+  margin-left: -10%;
 }
 
-.search-bar button {
+#lupa{
   background-color: hsl(189.57deg 56.1% 24.12%);
   color: white;
   padding: 8px 15px;
   border: none;
   cursor: pointer;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 1px;
+  height: 40px;
+
 }
 
-.user-actions #users-button {
+#users-button {
   background-color: hsl(189.57deg 56.1% 24.12%);
   color: white;
-
-  border: 2px; 
+  border: 2px;
   border-radius: 5px;
-  margin-right: 10px;
   cursor: pointer;
+  margin-left: 24%;
+  margin-bottom: -39%;
 }
 
-.user-actions #shoppings-button{
+#shoppings-button{
   background-color: hsl(189.57deg 56.1% 24.12%);
   color: white;
-
-  border: 2px; 
+  border: 2px;
   border-radius: 5px;
-  margin-right: 10px;
   cursor: pointer;
+  margin-left: 88%;
+}
+.user-actions{
+  display: flex;
 }
 
 .product-categories-nav {
@@ -130,21 +138,23 @@ font-family: var(--family-fugazOne);
   align-items: center;
   color: white;
   font-size: 30px;
-  
+  display: none;
+}
+h3{
+  font: size 19px; 
 }
 .product-categories-nav a:hover {
 background-color: hsl(189.57deg 56.1% 24.12%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 426px) {
     .title-header{
         display: none;
     }
     .search-bar {
       display: none;
     }
-    h3{
-    }
+   
     .user-actions #users-button {
       margin-right: 5px;
     }
@@ -158,7 +168,7 @@ background-color: hsl(189.57deg 56.1% 24.12%);
       }
   }
   
-  @media only screen and (min-width: 600px) and (max-width: 960px) {
+  @media only screen and (min-width: 426px) and (max-width: 769px) {
    .title-header{
     display: none;
    }
@@ -174,17 +184,18 @@ background-color: hsl(189.57deg 56.1% 24.12%);
     }
   }
   
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 769px) {
    
     .search-bar {
-      width: 330px;
+      width: 282px;
+
     }
   
     .product-categories li {
       margin-right: 20px;
     }
 
-  #burger-menu{
-      display: none;
-  }
+#burger-menu{
+      display:none;
 }
+  }
