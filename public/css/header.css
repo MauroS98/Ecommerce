@@ -80,7 +80,7 @@ font-family: var(--family-fugazOne);
   border: 2px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 24%;
+  margin-left: 0%;
   margin-bottom: -39%;
 }
 
@@ -90,7 +90,7 @@ font-family: var(--family-fugazOne);
   border: 2px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 88%;
+  margin-left: 18%;
 }
 .user-actions{
   display: flex;
@@ -168,12 +168,12 @@ background-color: hsl(189.57deg 56.1% 24.12%);
       }
   }
   
-  @media only screen and (min-width: 426px) and (max-width: 769px) {
-   .title-header{
+  @media only screen and (min-width: 426px) and (max-width: 769px) { */
+    .title-header{
     display: none;
    }
     .search-bar {
-      width: 300px;
+      width: 281px;
     }
   
     .product-categories li {
