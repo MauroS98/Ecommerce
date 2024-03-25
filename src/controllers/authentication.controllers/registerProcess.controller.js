@@ -28,7 +28,7 @@ module.exports = (req, res) => {
     return;
   }
 
-  res.render("auth/register", {
+  res.render("/authentication/register", {
     old: req.body,
     errors: errors.mapped(),
   });

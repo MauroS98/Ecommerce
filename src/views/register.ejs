@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+     <%- include('./partials/head') %>
+
+</head>
+<body>
+    <%- include('./partials/header') %>
+    <main class="main-register-registro">        
+        <form class="form-registre" action="/" method="POST">
+            <div class="div-general-registre">
+            <h2 class="subtitulo">Registrate</h2>
+            <div class="div_imput_conten">
+                    <div class="inputs-user-email">
+                        <i  id="iUser" class="fa-solid fa-user"></i> 
+                        <input class="input-registre" type="nombre" placeholder="nombre " name="nombre completo" required>
+                        <i id="ienvelope-resgistre" class=" fa-solid fa-envelope"></i>
+                        <input class="input-registre" type="email" placeholder="E-mail" name="email" required>
+                    </div>  
+            
+                    <div class="div-key-registre">
+                    <i id="ikey-registre" class="fa-solid fa-key"></i>
+                    <input class="key-registre" type="Password" placeholder="Password" name="Password" required>
+                    </div>
+            
+                <div class="div-key-registre">
+                <i id="ikey-registre" class="fa-solid fa-key"></i>
+                <input class="key-registre" type="Password" placeholder="Password" name="Password" required>
+                </div>
+            
+                <div class="boton-registre">
+                <butoon class="usuario-boton-registre" type="submit" href="/">INGRESAR</butoon>
+                </div>
+            </div>
+            <marquee class="bienvenido" behavior="" direction="">BIENVENIDOS A QUAMTUM PC</marquee>
+            </div>
+        </form>
+        
+
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+
+</html>

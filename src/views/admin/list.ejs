@@ -17,7 +17,7 @@
                 </ul>
                 <div class="button-group">
                     <a href="/products/productDetail">Detalle</a>
-                    <a href="/admin/editar-producto/<%= p.id %>">Editar</a>
+                    <a href="/admin/editar-producto/:id<%= p.id %>">Editar</a>
                     <form action="/admin/eliminar-producto/<%= p.id %>?_method=DELETE" method="post"
                         enctype="multipart/form-data">
                         <button type="submit" class="">Eliminar</button>

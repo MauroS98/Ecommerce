@@ -1,29 +1,39 @@
 
-<div class="container mt-5">
+<div class="container row m-0 justify-content-center ">
     <h2 class="mb-4">Editar Producto</h2>
 
-    <form class="formUpdateProduct">
-        <div class="form-group-">
-             <label >ID: <%= product.id %></label> 
+    <form class="form-p" action="editar-producto ?_method=PUT" method="post" enctype="multipart/form-data">
+        <div class="form-group ">
+             <!-- <label >ID: </label>  -->
         </div>
-        <div class="form-group">
-            <label for="nombre">Nombre del producto</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Nombre del Producto" value="<%= product.name %>">
+        <div class="form-group col-auto p-15 text-center" >
+            <label for="nombre"></label>
+            <input type="text" class="form-control col-md-6 " id="nombre" placeholder="Nombre del Producto" >
         </div>
         
         <div class="form-group">
-            <label for="precioLista">Precio</label>
-            <input type="text" class="form-control" id="precioLista" placeholder="Precio de Lista" value="$<%= product.price %>">
+            <label for="precioLista"></label>
+            <input type="text" class="form-control col-md-6" id="precioLista" placeholder="Precio de Lista" >
         </div>
         <div class="form-group">
             <label for="imagenes">Cargar Imágenes</label>
-            <input type="file" class="form-control-file" id="imagenes" multiple>
+            <input type="file" class="form-control-file col-md-6" id="imagenes" multiple>
         </div>
-        <div class="form-group">
+        <div class="form-controlcol-md-6" >
             <label for="especificaciones">Descripcion</label>
-            <textarea class="form-control" ><%= product.description %></textarea>
+            <textarea class="form-control col-md-6"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Guardar Datos</button>
+        <div class="form-label col-md-6">
+            <label for="category" class="form-label">Categoría:</label>
+            <select class="select" name="category" id="category" class="form-control col-md-6"">
+                <option value="" selected hidden>seleccionar</option>
+                <option value="gabinetes">gabinetes</option>
+                <option value="Procesadores">Procesadores</option>
+                <option value="Memorias Ram">Memorias Ram</option>
+                <option value="Placas de Video">Placas de Video</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary height-0">Guardar Datos</button>
     </form>
 </div>
 

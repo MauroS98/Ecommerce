@@ -285,37 +285,5 @@
       "description": "ggdgfdghgh",
       "category": "gabinetes",
       "image": "image-1710799973211.jpeg"
-   },
-   {
-      "id": 31,
-      "name": "gabinete",
-      "price": 233300000,
-      "description": "muy bueno",
-      "category": "gabinetes",
-      "image": "image-1710810867279.jpeg"
-   },
-   {
-      "id": 32,
-      "name": "procesador",
-      "price": 3566666666,
-      "description": "terrible",
-      "category": "Procesadores",
-      "image": "image-1710817274039.jpeg"
-   },
-   {
-      "id": 33,
-      "name": "procesador",
-      "price": 2333,
-      "description": "muy bueno",
-      "category": "Procesadores",
-      "image": "image-1710863170992.jpeg"
-   },
-   {
-      "id": 34,
-      "name": "gabinete",
-      "price": 353656675,
-      "description": "BUENO",
-      "category": "Procesadores",
-      "image": "image-1710891423500.jpeg"
    }
 ]
