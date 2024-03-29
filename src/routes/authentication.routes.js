@@ -1,10 +1,14 @@
 const express = require('express');
 const router = express.Router()
 
-const mainControllers = require('../controllers/products.controllers')
+const authenticationControllers = require("../controllers/authentication.controllers")
+const loginValidation = require("../middlewares/loginValidation")
 
-router.get('/login', mainControllers.login)
+// "/authentication"
 
-router.get('/register', mainControllers.register)
+router.get('/login', authenticationControllers.login)
+router.post('/login', loginValidation, authenticationControllers.loginProcess)
+
+router.get('/register', authenticationControllers.register)
 
 module.exports = router

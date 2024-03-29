@@ -1,0 +1,9 @@
+[
+    {
+        "id":1,
+        "name":"Luke",
+        "apellido":"Maciel",
+        "email": "lucasmaciel7ynine@gmail.com",
+        "password":"123123"
+    }
+]

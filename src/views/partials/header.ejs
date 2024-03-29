@@ -1,33 +1,40 @@
-    <header class="main-header">
-        <div class="logo-container">
-            <a href=""><img src="../../../images/otros/Logo.jpg" alt="Logo"></a>
-        </div>
-        <div class="title-header">
-            <h1 class="title">Quantum PC</h1>
-          </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar productos">
-            <button class="search-button"><i class="fas fa-search"></i></button>
-        </div>
-        <div class="user-actions">
-          <a href="/authentication/login">
-            <button id="users-button"><i class="fa-solid fa-user-large"></i><h3>Ingresar</h3></button>
-          </a>
-          <a href="/products/cart">
-            <button id="shoppings-button"><i class="fa-solid fa-cart-shopping"></i><h3>Carrito</h3></button>
-          </a>  
-        </div>
-    </header>
-    <div id="burger-menu">
-        <button id="burger"><i class="fa-solid fa-bars barras"></i></button>
-      </div>
+<header class="main-header">
+  <div class="logo-and-tittle">
+    <div class="logo-container">
+      <a href=""><img src="../../../images/otros/Logo.jpg" alt="Logo"></a>
     </div>
-    <nav class="product-categories-nav">
-        <ul class="product-categories">
-            <li><a href="/products/lista">Todos los Productos </a></li>
-            <li><a href="#">Hardware</a></li>
-            <li><a href="#">Periféricos</a></li>
-            <li><a href="#">Notebooks</a></li>
-            <li><a href="/admin/dashboard">DASHBOARD</a></li>
-        </ul>
-    </nav>
+    <div class="title-header">
+      <h1 class="title">Quantum PC</h1>
+    </div>
+  </div>
+  <form class="search-bar" action="/">
+    <input type="text" placeholder="Buscar productos...">
+    <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+  </form>
+  <div class="user-actions">
+    <a href="/authentication/login" class="button-a">
+      <button class="user-button"><i class="fa-solid fa-user-large"></i>
+        <h3>Ingresar</h3>
+      </button>
+    </a>
+    <a href="/products/cart" class="button-a">
+      <button class="user-button"><i class="fa-solid fa-cart-shopping"></i>
+        <h3>Carrito</h3>
+      </button>
+    </a>
+  </div>
+</header>
+<nav class="nav-container">
+    
+    <label for="burguer-activation"><i class="bars fa-solid fa-bars"></i></label>
+
+    <input class="burguer-activation" type="checkbox" id="burguer-activation">
+
+    <ul class="ul-links">
+      <li class="link"><a href="/">PC armadas</a></li>
+      <li class="link"><a href="/">Hardware</a></li>
+      <li class="link"><a href="/">Perifericos</a></li>
+      <li class="link"><a href="/">Notebooks</a></li>
+      <li class="link"><a href="/products/lista">Ver todo</a></li>
+    </ul>
+  </nav>
