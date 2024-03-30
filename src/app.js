@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(methodOverride("_method"));
 app.use(expressPartials());
 
+
 const mainRoutes = require('./routes/main.routes')
 const productRoutes = require('./routes/products.routes')
 const authenticationRoutes = require('./routes/authentication.routes')
@@ -37,10 +38,9 @@ app.use('/authentication', authenticationRoutes)
 app.use('/admin', adminRoutes)
 
 // catch 404 and forward to error handler
-// app.use(function (req, res, next) {
-//   next(createError(404));
-// });
-
+app.use(function (req, res, next) {
+  next(createError(404));
+});
 
 // error handler
 //app.use(function (err, req, res, next) {
