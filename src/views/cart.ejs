@@ -1,135 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+<%- include('./partials/head') %>
 
-<head>
-  
-  <%- include('./partials/head') %>
+  <body>
+    <%- include('./partials/header') %>
 
-
-</head>
-
-<body>
-  <%- include('./partials/header') %>
-
-  <main class="main-cart">
-    <div class="products-cart">
-      <article class="product-cart">
-        <img src="../../images/productos/product-cart-1.png" alt="image-cart">
-        <div class="product-name">
-          <h3>Placa de Video Asus Rtx 3050 8Gb</h3>
+      <main class="main-cart">
+        <div class="products-cart">
+          <article class="product-cart">
+            <div class="img-cart-container">
+            <img src="../../images/productos/product-cart-1.png" alt="image-cart">
+            </div>
+            <div class="product-cart-info">
+              <div class="product-name">
+                <h3>Placa de Video Asus Rtx 3050 8Gb</h3>
+              </div>
+              <div class="product-price">
+                <h3>$558.600</h3>
+              </div>
+            </div>
+            <div class="product-quantity">
+              <div class="quantity-container">
+                <button class="sumar"><i class="fa-solid fa-plus"></i></button>
+                <span class="numero">1</span>
+                <button class="restar"><i class="fa-solid fa-minus"></i></button>
+              </div>
+            </div>
+          </article>
+          <article class="product-cart">
+            <div class="img-cart-container">
+              <img src="../../images/productos/product-cart-2.png" alt="image-cart">
+            </div>
+            <div class="product-cart-info">
+              <div class="product-name">
+                <h3>Procesador Intel Core i5 11600K 49GHz</h3>
+              </div>
+              <div class="product-price">
+                <h3>$264.900</h3>
+              </div>
+            </div>
+            <div class="product-quantity">
+              <div class="quantity-container">
+                <button class="sumar"><i class="fa-solid fa-plus"></i></button>
+                <span class="numero">1</span>
+                <button class="restar"><i class="fa-solid fa-minus"></i></button>
+              </div>
+          </article>
+          <article class="product-cart">
+            <div class="img-cart-container">
+              <img src="../../images/productos/product-cart-3.png" alt="image-cart">
+            </div>
+            <div class="product-cart-info">
+              <div class="product-name">
+                <h3>Mother Asus Rog Strix B550-A</h3>
+              </div>
+              <div class="product-price">
+                <h3>$180.000</h3>
+              </div>
+            </div>
+            <div class="product-quantity">
+              <div class="quantity-container">
+                <button class="sumar"><i class="fa-solid fa-plus"></i></button>
+                <span class="numero">1</span>
+                <button class="restar"><i class="fa-solid fa-minus"></i></button>
+              </div>
+          </article>
         </div>
-        <div class="product-quantity">
-          <div class="quantity-container">
-            <button class="restar">-</button>
-            <span class="numero">1</span>
-            <button class="sumar">+</button>
+        <div class="buy-container">
+          <div class="pay-methods">
+            <label>
+              <input type="radio" name="medios-de-pago" value="Depósito o transferencia bancaria">
+              Depósito o transferencia bancaria
+            </label>
+            <label>
+              <input type="radio" name="medios-de-pago" value="Mercado Pago-PagoFacil-RapiPago">
+              Mercado Pago-PagoFacil-RapiPago
+            </label>
+            <label>
+              <input type="radio" name="medios-de-pago" value="Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!">
+              Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!
+            </label>
+          </div>
+          <div class="continue-pay">  
+            <div class="total-price">
+              <h3>Total: <span id="total-amount">0</span></h3>
+            </div>
+            <div class="buy-cart">
+              <input type="button" value="Continuar">
+            </div>
           </div>
         </div>
-        <div class="product-price">
-          <h3>$558.600</h3>
-        </div>
-      </article>
-      <article class="product-cart">
-        <img src="../../images/productos/product-cart-2.png" alt="image-cart">
-        <div class="product-name">
-          <h3>Procesador Intel Core i5 11600K 49GHz</h3>
-        </div>
-        <div class="product-quantity">
-          <div class="quantity-container">
-            <button class="restar">-</button>
-            <span class="numero">1</span>
-            <button class="sumar">+</button>
-          </div>
-        </div>
-        <div class="product-price">
-          <h3>$264.900</h3>
-        </div>
-      </article>
-      <article class="product-cart">
-        <img src="../../images/productos/product-cart-3.png" alt="image-cart">
-        <div class="product-name">
-          <h3>Mother Asus Rog Strix B550-A</h3>
-        </div>
-        <div class="product-quantity">
-          <div class="quantity-container">
-            <button class="restar">-</button>
-            <span class="numero">1</span>
-            <button class="sumar">+</button>
-          </div>
-        </div>
-        <div class="product-price">
-          <h3>$195.000</h3>
-        </div>
-      </article>
-    </div>
-    <div class="buy-container">
-      <div class="pay-methods">
-        <label>
-            <input type="radio" name="medios-de-pago" value="Depósito o transferencia bancaria">
-            Depósito o transferencia bancaria
-        </label>
-        <label>
-            <input type="radio" name="medios-de-pago" value="Mercado Pago-PagoFacil-RapiPago">
-            Mercado Pago-PagoFacil-RapiPago
-        </label>
-        <label>
-            <input type="radio" name="medios-de-pago" value="Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!">
-            Pago Quantum - Tarjeta de crédito - ¡Hasta 12 cuotas!
-        </label>
-    </div>
-    
-      <div class="total-price">
-        <h3>Total: <span id="total-amount">0</span></h3>
-      </div>
-      <div class="buy-cart">
-        <input type="button" value="Continuar">
-      </div>
-    </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const products = document.querySelectorAll('.product-cart');
-        const totalAmountElement = document.getElementById('total-amount');
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const products = document.querySelectorAll('.product-cart');
+            const totalAmountElement = document.getElementById('total-amount');
 
-        function updateTotalAmount() {
-          let totalAmount = 0;
+            function updateTotalAmount() {
+              let totalAmount = 0;
 
-          products.forEach(product => {
-            const numeroElemento = product.querySelector('.numero');
-            const productPriceElement = product.querySelector('.product-price h3');
+              products.forEach(product => {
+                const numeroElemento = product.querySelector('.numero');
+                const productPriceElement = product.querySelector('.product-price h3');
 
-            const cantidad = parseInt(numeroElemento.textContent, 10);
-            const precioUnitario = parseFloat(productPriceElement.textContent.replace('$', '').replace('.', ''));
+                const cantidad = parseInt(numeroElemento.textContent, 10);
+                const precioUnitario = parseFloat(productPriceElement.textContent.replace('$', '').replace('.', ''));
 
-            totalAmount += cantidad * precioUnitario;
-          });
+                totalAmount += cantidad * precioUnitario;
+              });
 
-          totalAmountElement.textContent = totalAmount.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' });
-        }
+              totalAmountElement.textContent = totalAmount.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' });
+            }
 
-        products.forEach(product => {
-          const numeroElemento = product.querySelector('.numero');
-          const sumarBoton = product.querySelector('.sumar');
-          const restarBoton = product.querySelector('.restar');
+            products.forEach(product => {
+              const numeroElemento = product.querySelector('.numero');
+              const sumarBoton = product.querySelector('.sumar');
+              const restarBoton = product.querySelector('.restar');
 
-          let numero = 1;
+              let numero = 1;
 
-          sumarBoton.addEventListener("click", function () {
-            numero++;
-            numeroElemento.textContent = numero;
+              sumarBoton.addEventListener("click", function () {
+                numero++;
+                numeroElemento.textContent = numero;
+                updateTotalAmount();
+              });
+
+              restarBoton.addEventListener("click", function () {
+                numero = Math.max(1, numero - 1);
+                numeroElemento.textContent = numero;
+                updateTotalAmount();
+              });
+            });
             updateTotalAmount();
           });
-
-          restarBoton.addEventListener("click", function () {
-            numero = Math.max(1, numero - 1);
-            numeroElemento.textContent = numero;
-            updateTotalAmount();
-          });
-        });
-        updateTotalAmount();
-      });
-    </script>
-  </main>
-  <%- include('./partials/footer') %>
-</body>
+        </script>
+      </main>
+      <%- include('./partials/footer') %>
+  </body>
 
 </html>
