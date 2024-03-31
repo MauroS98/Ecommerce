@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const methodOverride = require("method-override")
 const expressPartials = require('express-partials');
+const session = require("express-session")
 
 var app = express();
 
@@ -19,6 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
 app.use(methodOverride("_method"));
+app.use(session({ secret: "palabra secreta" }))
 app.use(expressPartials());
 
 

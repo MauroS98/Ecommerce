@@ -1,4 +1,5 @@
 const { validationResult } = require('express-validator')
+const bcryptjs = require ("bcryptjs")
 const { loadData } = require('../../data')
 
 module.exports = (req, res) => {
