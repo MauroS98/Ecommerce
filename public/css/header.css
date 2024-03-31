@@ -127,6 +127,10 @@ body {
   display: none;
 }
 
+.nav-desktop {
+  display: none;
+}
+
 .nav-container {
   height: 50px;
   background-color: var(--negro);
