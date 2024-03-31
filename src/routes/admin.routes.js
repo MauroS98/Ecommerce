@@ -9,7 +9,7 @@ const {editProduct} = require('../controllers/admin.controllers/editProduct.cont
 
 // "/admin"
 
-router.get("/lista-producto", mainControllers.listProducts);
+router.get("/lista-producto",mainControllers.listProducts);
 router.get("/search", search);
 router.get("/editar-producto/:id", mainControllers.updateProduct);
 router.put('/editar-producto/:id',upload.single("image"),mainControllers.updateProduct)

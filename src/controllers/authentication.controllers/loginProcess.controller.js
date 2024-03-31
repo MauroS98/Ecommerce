@@ -6,26 +6,27 @@ module.exports = (req, res) => {
 
     const errors = validationResult(req)
 
-    if(errors.isEmpty()){
-        return res.send("logueado sin errores")
+    if (errors.isEmpty()) {
+
+        const userFind = users.find((u)=> u.email === req.body.email)
+
+        const { name, email, role, avatar} = userFind
+        
+        req.session.userLogin = {
+            name,
+            email,
+            role,
+            avatar
+        }
+
+        res.redirect("/")
+
     } else {
-        res.send("errores en la validacion de datos")
+        const errorsMapped = errors.mapped()
+        const { email } = req.body
+        res.render("login", { errors: errorsMapped, email })
     }
 
-    const {email, password } = req.body
 
-    const userFind = users.find(u => u.email === email)
-    if(!userFind) {
-        res.send("El usuario no existe")
-    }
 
-    const isValidPass = userFind.password === password
-    if(!isValidPass) {
-        res.send("contraseña incorrecta")
-    }
-
-    res.send("usted se ha logeado")
-    
-
-    
 }
