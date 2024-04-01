@@ -1,4 +1,19 @@
-[
+[   {
+   "id": 0,
+   "name": "admin",
+   "email": "admin@gmail.com",
+   "password": "admin123",
+   "role": "ADMIN",
+   "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 1,
+      "name": "regular",
+      "email": "regular@gmail.com",
+      "password": "regular123",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
    {
       "id": 2,
       "name": "LukeGod",
