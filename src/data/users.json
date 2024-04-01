@@ -45,5 +45,12 @@
       "password": "$2a$12$HQIXwKgaAy0e8HPmDtoc1OgOOJ2mgc6Z0yUmyteTU7ozN6oKuN4aO",
       "role": "REGULAR",
       "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 8,
+      "email": "gastoncastillo1920@gmail.com",
+      "password": "$2a$12$HBvtL48FRRyCcrEPB.owCeyv/h25nq.Mfl2J8z9tQjSdejnIFg5YO",
+      "role": "ADMIN",
+      "avatar": "default-avatar.jpg"
    }
 ]

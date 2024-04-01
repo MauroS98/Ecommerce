@@ -7,7 +7,7 @@ const methodOverride = require("method-override")
 const expressPartials = require('express-partials');
 const session = require("express-session")
 const dataLocals = require("./middlewares/insertDataLocals")
-
+const { createSessionFromCookie, insertDataLocals } = require("./middlewares");
 var app = express();
 
 
@@ -42,9 +42,9 @@ app.use('/authentication', authenticationRoutes)
 app.use('/admin', adminRoutes)
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
-  next(createError(404));
-});
+// app.use(function (req, res, next) {
+//   next(createError(404));
+// });
 
 // error handler
 //app.use(function (err, req, res, next) {

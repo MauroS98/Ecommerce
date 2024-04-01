@@ -6,7 +6,7 @@ module.exports = (req, res) => {
   const errors = validationResult(req);
 
   if (errors.isEmpty()) {
-    const { userName, email, password } = req.body;
+    const { userName, email, password, role, avatar } = req.body;
     const users = loadData("users");
 
     const newUser = {

@@ -1,27 +1,38 @@
-const products = require("../../data/quantumDataBase.json");
-const { saveData ,loadData } = require("../../data");
+
+const { loadData } = require("../../data");
 
 module.exports = (req, res) => {
   const { id } = req.params;
-  const { name, description, category, price } = req.body;
+  const products = loadData();
+
+  const productFind = products.find((p) => p.id === +id);
+  res.redirect(`/products/lista`, { product: productFind });
+};
+
+// const products = require("../../data/quantumDataBase.json");
+// const { saveData ,loadData } = require("../../data");
+
+// module.exports = (req, res) => {
+//   const { id } = req.params;
+//   const { name, description, category, price } = req.body;
   
- let newarray = products.map(p=>{
-  if (p.id == +id){
-    return {
-      id,
-      name:name,
-      description: description,
-      category:category,
-      price:+ price,
-      image: req.file ? req.file.filename : p.image,
-      imagesSecondary: newImages.length ? newImages : p.imagesSecondary,
-  }
-}
-return p
- }); 
- saveData(newarray);
-   res.redirect(`/products/lista`);
-}
+//  let newarray = products.map(p=>{
+//   if (p.id == +id){
+//     return {
+//       id,
+//       name:name,
+//       description: description,
+//       category:category,
+//       price:+ price,
+//       image: req.file ? req.file.filename : p.image,
+//       imagesSecondary: newImages.length ? newImages : p.imagesSecondary,
+//   }
+// }
+// return p
+//  }); 
+//  saveData(newarray);
+//    res.redirect(`/products/lista`);
+// }
 
 //     if (req.files.imagesSecondary?.length) {
 //       newImages = req.files.imagesSecondary?.map((img) => img.filename);

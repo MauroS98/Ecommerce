@@ -284,5 +284,13 @@
       "description": "ggdgfdghgh",
       "category": "gabinetes",
       "image": "image-1710799973211.jpeg"
+   },
+   {
+      "id": 31,
+      "name": "memoria",
+      "price": 0,
+      "description": "muy b",
+      "category": "Memorias Ram",
+      "image": "image-1711950471535.png"
    }
 ]
