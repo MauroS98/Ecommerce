@@ -9,36 +9,56 @@
 <body>
     <%- include('./partials/header') %>
     <main class="main-register-registro">        
-        <form class="form-registre" action="/" method="POST">
-            <div class="div-general-registre">
-            <h2 class="subtitulo">Registrate</h2>
-            <div class="div_imput_conten">
-                    <div class="inputs-user-email">
-                        <i  id="iUser" class="fa-solid fa-user"></i> 
-                        <input class="input-registre" type="nombre" placeholder="nombre " name="nombre completo" required>
-                        <i id="ienvelope-resgistre" class=" fa-solid fa-envelope"></i>
-                        <input class="input-registre" type="email" placeholder="E-mail" name="email" required>
-                    </div>  
-            
-                    <div class="div-key-registre">
-                    <i id="ikey-registre" class="fa-solid fa-key"></i>
-                    <input class="key-registre" type="Password" placeholder="Password" name="Password" required>
-                    </div>
-            
-                <div class="div-key-registre">
-                <i id="ikey-registre" class="fa-solid fa-key"></i>
-                <input class="key-registre" type="Password" placeholder="Password" name="Password" required>
-                </div>
-            
-                <div class="boton-registre">
-                <butoon class="usuario-boton-registre" type="submit" href="/">INGRESAR</butoon>
-                </div>
-            </div>
-            <marquee class="bienvenido" behavior="" direction="">BIENVENIDOS A QUAMTUM PC</marquee>
-            </div>
-        </form>
-        
+        <section class="main-login">
 
+            <form class="form-login" action="/authentication/register" method="POST"enctype="multipart/form-data ">
+                <h2 class= "subtitulo-login" >Registrarse</h2>
+
+                <div class="div-general-login">
+                    <div class="input-component">
+                        <i class="input-logo fa-solid fa-user"></i>
+                        <input type="text" placeholder="Ingrese nombre de usuario" name="username" required  value="<%= locals.username? username : "" %>">
+                        <p class="error-alert"><%= locals.errors?.username?.msg%></p>
+                        <% if (locals.errors && errors.fullName) { %>
+                            <div class="text-danger">
+                                <%= errors.fullName.msg %> 
+                            </div>
+                        <% } %>
+                    </div>
+                    <div class="input-component">
+                        <i class="input-logo fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Ingrese email" name="email" required value="<%= locals.email? email : "" %>">
+                        <p class="error-alert"><%= locals.errors?.email?.msg%></p>
+                    </div>
+                    <div class="input-component">
+                        <i class="input-logo fa-solid fa-key"></i>
+                        <input type="Password" placeholder="Ingrese contraseña" name="password" required>
+                        <p class="error-alert"><%= locals.errors?.password?.msg%></p>
+                    </div>
+                    <div class="input-component">
+                        <i class="input-logo fa-solid fa-key"></i>
+                        <input type="Password" placeholder="Repita su contraseña" name="password2" required>
+                        <p class="error-alert"><%= locals.errors?.password2?.msg%></p>
+                    </div>
+                    <div class="input-component">
+                       
+                            <label><b>Imagen de perfil:</b></label>
+                            <input 
+                                type="file" 
+                                name="avatar"
+                                class="form-control <%= locals.errors && errors.migenes ? 'is-invalid' : null %>">
+                                <p class="error-alert"><%= locals.errors?.imagrnes?.msg%></p>
+                    </div>
+
+                    <input class="login-button" type="submit" value="Registrarse">
+
+                    <h3>Ya tenes cuenta? <a href="/authentication/login">Ingresar</a></h3>
+
+                    <marquee class="bienvenido" behavior="" direction="">BIENVENIDOS A QUANTUM PC</marquee>
+                </div>
+            </form>
+
+        </section>
     </main>
     <%- include('./partials/footer') %>
 </body>

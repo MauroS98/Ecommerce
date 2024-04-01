@@ -25,13 +25,17 @@
                     <div class="div-general-login">
                         <div class="input-component">
                             <i class="input-logo fa-solid fa-envelope"></i>
-                            <input type="text" placeholder="Ingrese su email" name="email" required>
+                            <input type="text" placeholder="Ingrese su email" name="email" required value="<%= locals.email? email : "" %>">
+                            <p class="error-alert"><%= locals.errors?.email?.msg%></p>
+                            
                         </div>
 
 
                         <div class="input-component">
                             <i class="input-logo fa-solid fa-key"></i>
                             <input type="Password" placeholder="Ingrese su contraseña" name="password" required>
+                            <p class="error-alert"><%= locals.errors?.password?.msg%></p>
+
                         </div>
 
                         <input class="login-button" type="submit" value="Ingresar">

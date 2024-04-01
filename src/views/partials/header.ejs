@@ -7,16 +7,24 @@
       <h1 class="title">Quantum PC</h1>
     </div>
   </div>
-  <form class="search-bar" action="/">
-    <input type="text" placeholder="Buscar productos...">
+  <form class="search-bar" action="/buscar" method="GET" >
+    <input type="text" name="keywords" placeholder="Buscar productos...">
     <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
   </form>
   <div class="user-actions">
-    <a href="/authentication/login" class="button-a">
-      <button class="user-button"><i class="fa-solid fa-user-large"></i>
-        <h3>Ingresar</h3>
-      </button>
-    </a>
+    <% if (!locals.userLogin) { %>
+      <a href="/authentication/login" class="button-a">
+        <button class="user-button"><i class="fa-solid fa-user-large"></i>
+          <h3>Ingresar</h3>
+        </button>
+      </a>
+      <% } else { %>
+        <a href="/authentication/login" class="button-a">
+          <button class="user-button"><i class="fa-solid fa-user-large"></i>
+            <h3>Perfil</h3>
+          </button>
+        </a>
+        <% } %>
     <a href="/products/cart" class="button-a">
       <button class="user-button"><i class="fa-solid fa-cart-shopping"></i>
         <h3>Carrito</h3>
@@ -25,16 +33,27 @@
   </div>
 </header>
 <nav class="nav-container">
-    
-    <label for="burguer-activation"><i class="bars fa-solid fa-bars"></i></label>
+    <div class="burguer-container">
 
-    <input class="burguer-activation" type="checkbox" id="burguer-activation">
-
-    <ul class="ul-links">
-      <li class="link"><a href="/">PC armadas</a></li>
-      <li class="link"><a href="/">Hardware</a></li>
-      <li class="link"><a href="/">Perifericos</a></li>
-      <li class="link"><a href="/">Notebooks</a></li>
-      <li class="link"><a href="/products/lista">Ver todo</a></li>
-    </ul>
+      <label for="burguer-activation"><i class="bars fa-solid fa-bars"></i></label>
+      
+      <input class="burguer-activation" type="checkbox" id="burguer-activation">
+      
+      <ul class="ul-links">
+        <li class="link"><a href="/">PC armadas</a></li>
+        <li class="link"><a href="/">Hardware</a></li>
+        <li class="link"><a href="/">Perifericos</a></li>
+        <li class="link"><a href="/">Notebooks</a></li>
+        <li class="link"><a href="/products/lista">Ver todo</a></li>
+      </ul>
+    </div>
+    <div class="nav-desktop">
+      <ul >
+        <li ><a href="/">PC armadas</a></li>
+        <li ><a href="/">Hardware</a></li>
+        <li ><a href="/">Perifericos</a></li>
+        <li ><a href="/">Notebooks</a></li>
+        <li id="final-li"><a href="/products/lista">Ver todo</a></li>
+      </ul>
+    </div>
   </nav>

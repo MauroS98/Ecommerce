@@ -127,6 +127,10 @@ body {
   display: none;
 }
 
+.nav-desktop {
+  display: none;
+}
+
 .nav-container {
   height: 50px;
   background-color: var(--negro);
@@ -215,5 +219,56 @@ body {
 }
 
 @media (min-width: 769px) {
+
+  .burguer-container{
+    display: none;
+  }
+
+  .nav-desktop {
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--celeste);
+  }
+
+  .nav-desktop ul {
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--grisOscuro);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .nav-desktop ul li {
+    width: 20%;
+    text-align: center;
+    border-right: 3px solid var(--celeste);
+  }
+
+  #final-li{
+    border-right: none;
+  }
+
+  .nav-desktop ul li a {
+    text-decoration: none;
+    font-family: var(--family-sans);
+    color: var(--totalwhite);
+    font-weight: 500;
+  }
+
+  .search-bar {
+    width: 30vw;
+    height: 32px;
+    position: static;
+    margin-top: 30px;
+    background-color: var(--blanco);
+    display: flex;
+    border-radius: 8px;
+    border: solid 3px;
+    border-color: var(--celeste);
+  }
 
 }
