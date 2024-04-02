@@ -1,190 +1,26 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
+/*<=================================================================================================================>*/
+/*                     MOBILE                            MOBILE                            MOBILE                    */
+/*<=================================================================================================================>*/
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-.main-header {
-  background-color: rgb(32 33 37);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-.title-header{
-color: var(--blanco);
-font-family: var(--family-fugazOne);
-
-}
-
-.title{
-  font-family: var(--family-fugazOne);
-  /* font-family: Arial, Helvetica, sans-serif; */
-}
-.logo-container {
-    display: flex;
-    align-items: center;
-    max-width: 50%;
-    border-radius: 50%;
-}
-
-.logo-container img {
-    max-height: 50px;
-    border-radius: 50%;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
-  border: 2px solid hsl(189.57deg 56.1% 24.12%); 
-  border-radius: 5px; 
-  width: 330px;
-}
-
-.search-bar input {
-  padding: 8px;
-  margin-right: 0; 
-  border: none; 
-  border-radius: 3px; 
-  width: 100%;
-}
-
-.search-bar button {
-  background-color: hsl(189.57deg 56.1% 24.12%);
-  color: white;
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-}
-
-.user-actions #users-button {
-  background-color: hsl(189.57deg 56.1% 24.12%);
-  color: white;
-  padding: 8px 15px;
-  border: 2px; 
-  border-radius: 5px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.user-actions #shoppings-button{
-  background-color: hsl(189.57deg 56.1% 24.12%);
-  color: white;
-  padding: 8px 15px;
-  border: 2px; 
-  border-radius: 5px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.product-categories-nav {
-  background-color: #101113;
-}
-
-.product-categories {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.product-categories li {
-  margin-right: 20px;
-  padding: 0 10px;
-  border-right: 3px solid hsl(189.57deg 56.1% 24.12%);
-}
-
-.product-categories a {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 15px;
-  border-radius: 5px;
-  margin: 0 5px;
-}
-#burger-menu{
-  text-align: center;
-  background-color: rgb(32, 33, 37);
-}
-#burger{
-  text-align: center;
-  width: 60px;
-  height: 60px;
-  margin: 0 auto;
-  background-color:hsl(189.57deg 56.1% 24.12%);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 30px;
-  
-}
-.product-categories-nav a:hover {
-background-color: hsl(189.57deg 56.1% 24.12%);
-}
-
-@media only screen and (max-width: 426px) {
-    .title-header{
-        display: none;
-    }
-    .search-bar {
-      display: none;
-    }
-    h3{
-    }
-    .user-actions #users-button {
-      margin-right: 5px;
-    }
-  
-    .user-actions #shoppings-button {
-      margin-right: 5px;
-    }
-  
-    .product-categories-nav {
-        display: none;
-      }
-  }
-  
-  @media only screen and (min-width: 426px) and (max-width: 769px) {
-   .title-header{
-    display: none;
-   }
-    .search-bar {
-      width: 300px;
-    }
-  
-    .product-categories li {
-      margin-right: 10px;
-    }
-    #burger-menu{
-        display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 769px) {
+@media (max-width:425px) {
+  .main-header{
    
-    .search-bar {
-      width: 330px;
-    }
-  
-    .product-categories li {
-      margin-right: 20px;
-    }
-
-  #burger-menu{
-      display: none;
   }
+  }
+
+/*<=================================================================================================================>*/
+/*                     TABLET                            TABLET                            TABLET                    */
+/*<=================================================================================================================>*/
+
+@media (min-width: 426px) {
+
+}
+
+/*<=================================================================================================================>*/
+/*                    DESKTOP                           DESKTOP                           DESKTOP                    */
+/*<=================================================================================================================>*/
+
+@media(min-width: 769px) { 
+
+
 }
