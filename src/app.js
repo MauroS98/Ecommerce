@@ -8,6 +8,7 @@ const expressPartials = require('express-partials');
 const session = require("express-session")
 const dataLocals = require("./middlewares/insertDataLocals")
 const { createSessionFromCookie, insertDataLocals } = require("./middlewares");
+// const admin = require("./middlewares/checkAdmin")
 var app = express();
 
 
@@ -24,7 +25,7 @@ app.use(methodOverride("_method"));
 app.use(expressPartials());
 app.use(session({secret: "secret message"}))
 app.use(dataLocals)
-
+// app.use(admin)
 
 const mainRoutes = require('./routes/main.routes')
 const productRoutes = require('./routes/products.routes')

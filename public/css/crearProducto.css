@@ -8,6 +8,9 @@
     .form-input{
         
     }
+.form-pd{
+    margin-left: 0%;
+}   
 .div-category{
     margin-bottom: 12px;
    
@@ -17,6 +20,8 @@
     }
 .boton{
 background-color: blue;
-color:white
+color:white;
+margin-left: 23%;
+    width: 34%;
     }
 

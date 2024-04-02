@@ -48,9 +48,19 @@
    },
    {
       "id": 8,
+      "name": "gaston",
       "email": "gastoncastillo1920@gmail.com",
       "password": "$2a$12$HBvtL48FRRyCcrEPB.owCeyv/h25nq.Mfl2J8z9tQjSdejnIFg5YO",
       "role": "ADMIN",
+      "avatar": "R2D2.png"
+   },
+   {
+      "id": 10,
+      "name": "valu",
+      "email": "valu@gmail.com",
+      "password": "$2a$12$.CpPYYruo40QMprmCBx7iePYk2OsFHAmEWyNSaDGtFDdyI1o4d37a",
+      "role": "REGULAR",
       "avatar": "default-avatar.jpg"
    }
+ 
 ]

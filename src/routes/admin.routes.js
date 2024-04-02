@@ -5,7 +5,7 @@ const mainControllers = require('../controllers/products.controllers')
 const { create, store,search, } = require("../controllers/admin.controllers");
 const { upload } = require('../middlewares/upload');
 const {editProduct} = require('../controllers/admin.controllers/editProduct.controller');
-
+const admin = require("../middlewares/checkAdmin")
 
 // "/admin"
 
@@ -13,7 +13,7 @@ router.get("/lista-producto",mainControllers.listProducts);
 router.get("/search", search);
 router.get("/editar-producto/:id", mainControllers.updateProduct);
 router.put('/editar-producto/:id',upload.single("image"),mainControllers.updateProduct)
-router.get('/dashboard', mainControllers.dashboard);
+router.get('/dashboard',admin, mainControllers.dashboard);
 
 router.get("/crear-producto", mainControllers.create);
 

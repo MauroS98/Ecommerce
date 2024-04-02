@@ -6,6 +6,7 @@ const loginValidation = require("../middlewares/validation/login.validation")
 const registerValidation = require("../middlewares/validation/register.validation")
 const {login,register,registerProcess,users}= require("../controllers/authentication.controllers")
 const { upload } = require('../middlewares/upload');
+const admin = require("../middlewares/checkAdmin")
 
 router.get('/login', authenticationControllers.login)
 router.post('/login', loginValidation, authenticationControllers.loginProcess)
@@ -13,5 +14,5 @@ router.post('/login', loginValidation, authenticationControllers.loginProcess)
 router.get('/register', register)
 router.post("/register", registerValidation,upload.single("avatar"), registerProcess)
 
-router.get('/users',users)
+router.get('/users',loginValidation,admin, users)
 module.exports = router

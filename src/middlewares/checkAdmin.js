@@ -6,7 +6,9 @@ const user = users[0]
 
 if(user.role === "ADMIN") {
 return next()
+}else{
+
+    return res.redirect("/")
 }
 
-return res.redirect("/")
 }

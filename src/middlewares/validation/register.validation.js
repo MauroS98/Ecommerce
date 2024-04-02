@@ -4,9 +4,9 @@ const { loadData } = require("../../data");
 const regExPass = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/;
 
 const registerValidation = [
-  body("username")
+  body("name")
     .notEmpty().withMessage("Campo requerido").bail()
-    .isLength({min: 5, max: 20}).withMessage("Longitud invalida").bail(),
+    .isLength({min: 3, max: 20}).withMessage("Longitud invalida").bail(),
 
   body("email")
     .notEmpty().withMessage("Campo requerido").bail()
@@ -32,7 +32,10 @@ const registerValidation = [
           throw new Error("Las contraseñas no coinciden")
       }
       return true
-    })
+    }),
+
+    body('avatar')
+    .notEmpty().withMessage("Campo requerido").bail()
 ]
 
 module.exports = registerValidation

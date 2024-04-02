@@ -246,6 +246,7 @@ body {
     width: 20%;
     text-align: center;
     border-right: 3px solid var(--celeste);
+    color: white;
   }
 
   #final-li{

@@ -6,16 +6,16 @@ module.exports = (req, res) => {
   const errors = validationResult(req);
 
   if (errors.isEmpty()) {
-    const { userName, email, password, role, avatar } = req.body;
+    const { username, email, password, role, avatar } = req.body;
     const users = loadData("users");
 
     const newUser = {
       id: !users.length ? 1 : users[users.length - 1].id + 1,
-      name: userName,
+      name: username,
       email: email?.trim().toLowerCase(),
-      password: hashSync(password?.trim(), 12),
-      role: "REGULAR",
-      avatar: "default-avatar.jpg",
+      password: hashSync(password.trim(), 12),
+      role:"REGULAR",
+      avatar: req.file ? req.file.filename :"default-avatar.jpg",
     };
 
     users.push(newUser);
@@ -27,6 +27,6 @@ module.exports = (req, res) => {
   }else{ 
     const errorsMapped = errors.mapped()
     const { username, email} = req.body
-    res.render("register", { errors: errorsMapped, username, email })
+    res.render("register", { errors: errorsMapped,old:req.body })
   }
 };

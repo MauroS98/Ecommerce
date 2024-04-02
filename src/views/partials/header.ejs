@@ -12,6 +12,7 @@
     <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
   </form>
   <div class="user-actions">
+   
     <% if (!locals.userLogin) { %>
       <a href="/authentication/login" class="button-a">
         <button class="user-button"><i class="fa-solid fa-user-large"></i>
@@ -19,10 +20,10 @@
         </button>
       </a>
       <% } else { %>
-        <a href="/authentication/login" class="button-a">
+        <a href="/authentication/users" class="button-a">
           <button class="user-button"><i class="fa-solid fa-user-large"></i>
-            <h3>Perfil</h3>
-          </button>
+          <h3>Ingresar</h3>
+        </button>
         </a>
         <% } %>
     <a href="/products/cart" class="button-a">
@@ -40,11 +41,20 @@
       <input class="burguer-activation" type="checkbox" id="burguer-activation">
       
       <ul class="ul-links">
+        
+        
         <li class="link"><a href="/">PC armadas</a></li>
         <li class="link"><a href="/">Hardware</a></li>
         <li class="link"><a href="/">Perifericos</a></li>
-        <li class="link"><a href="/">Notebooks</a></li>
-        <li class="link"><a href="/products/lista">Ver todo</a></li>
+        <% if (!locals.userLogin) { %>
+          <li class="link"><a href="/">Notebooks</a></li>
+          <li class="link"><a href="/products/lista">Ver todo</a></li>
+          <% } else { %>
+            <li class="link"><a href="/admin/lista-producto">productos</a></li>
+            <li class="link"><a href="/admin/lista-producto">Dashboard</a></li>
+            <li class="link">🟢 Hola  <%= locals.userLogin.name %></li>
+            <% } %>
+            >
       </ul>
     </div>
     <div class="nav-desktop">
@@ -52,8 +62,16 @@
         <li ><a href="/">PC armadas</a></li>
         <li ><a href="/">Hardware</a></li>
         <li ><a href="/">Perifericos</a></li>
-        <li ><a href="/">Notebooks</a></li>
-        <li id="final-li"><a href="/products/lista">Ver todo</a></li>
+        <% if (!locals.userLogin) { %>
+        <li class="link"><a href="/">Notebooks</a></li>
+        <li class="link"><a href="/products/lista">Ver todo</a></li>
+        <% } else { %>
+          <li class="link"><a href="/admin/lista-producto">productos</a></li>
+          <li class="link"><a href="/admin/lista-producto">Dashboard</a></li>
+
+          <li class="link">
+            🟢 Hola<%= locals.userLogin.name %></li>
+          <% } %>
       </ul>
     </div>
   </nav>
