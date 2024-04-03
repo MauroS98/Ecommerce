@@ -20,7 +20,7 @@ router.get("/crear-producto", mainControllers.create);
 router.get('/createProduct', mainControllers.createProduct)
 router.post('/crear-producto', upload.single("image"), mainControllers.store);
 
-router.delete("/eliminar-producto/:id", upload.single("image"), mainControllers.destroy)
+router.get("/eliminar-producto/:id",  mainControllers.destroy)
 router.delete("/eliminar-producto/:id", upload.single("image"), mainControllers.destroy)
 // router.get('/createProduct', mainControllers.createProduct)
 

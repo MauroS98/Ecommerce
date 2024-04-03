@@ -4,7 +4,7 @@ const { loadData } = require("../../data");
 const regExPass = /^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/;
 
 const registerValidation = [
-  body("name")
+  body("username")
     .notEmpty().withMessage("Campo requerido").bail()
     .isLength({min: 3, max: 20}).withMessage("Longitud invalida").bail(),
 
@@ -34,8 +34,8 @@ const registerValidation = [
       return true
     }),
 
-    body('avatar')
-    .notEmpty().withMessage("Campo requerido").bail()
+    // body('avatar')
+    // .notEmpty().withMessage("Campo requerido").bail()
 ]
 
 module.exports = registerValidation

@@ -61,6 +61,13 @@
       "password": "$2a$12$.CpPYYruo40QMprmCBx7iePYk2OsFHAmEWyNSaDGtFDdyI1o4d37a",
       "role": "REGULAR",
       "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 11,
+      "name": "ezequiel ",
+      "email": "ellechusoncastillo@hotmail.com",
+      "password": "$2a$12$dVfqNC/WrSt2yqllcLUBUu3sbPhMioISNhOfViV5FkfWfOPhCVhuq",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
    }
- 
 ]

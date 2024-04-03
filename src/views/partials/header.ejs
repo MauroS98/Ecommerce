@@ -20,9 +20,10 @@
         </button>
       </a>
       <% } else { %>
+        
         <a href="/authentication/users" class="button-a">
           <button class="user-button"><i class="fa-solid fa-user-large"></i>
-          <h3>Ingresar</h3>
+          <h3>Perfi</h3>
         </button>
         </a>
         <% } %>
@@ -70,7 +71,7 @@
           <li class="link"><a href="/admin/lista-producto">Dashboard</a></li>
 
           <li class="link">
-            🟢 Hola<%= locals.userLogin.name %></li>
+            🟢 Hola <%= locals.userLogin.name %></li>
           <% } %>
       </ul>
     </div>

@@ -1,27 +1,27 @@
-
-<div class="container row m-0 justify-content-center ">
+<!-- 
+<div class="containe row m-0 justify-content-center ">
     <h2 class="mb-4">Editar Producto</h2>
 
     <form class="form-p" action="editar-producto ?_method=PUT" method="post" enctype="multipart/form-data">
         <div class="form-group ">
-             <!-- <label >ID: </label>  -->
-            
+           
+            <% product %>
         </div>
         <div class="form-group col-auto p-15 text-center" >
             <label for="nombre"></label>
-            <input type="text" class="form-control col-md-6 " id="nombre" placeholder="Nombre del Producto" value="<%= p.name %>">
+            <input type="text" class="form-control col-md-6 " id="nombre" placeholder="Nombre del Producto" value="<% product %>">
         </div>
         
         <div class="form-group">
             <label for="precioLista"></label>
-            <input type="text" class="form-control col-md-6" id="precioLista" placeholder="Precio de Lista" value="<%= p.price %>">
+            <input type="text" class="form-control col-md-6" id="precioLista" placeholder="Precio de Lista" value="">
         </div>
         <div class="form-group">
             <label for="imagenes">Cargar Imágenes</label>
-            <input type="file" name="images" class="form-control-file col-md-6" id="imagenes" multiple  value="<%= p.images %>">
+            <input type="file" name="images" class="form-control-file col-md-6" id="imagenes" multiple  value="">
         </div>
         <div class="form-controlcol-md-6" >
-            <label for="especificaciones"><%= p.description %></label>
+            <label for="especificaciones"></label>
             <textarea class="form-control col-md-6"></textarea>
         </div>
         <div class="form-label col-md-6">
@@ -51,4 +51,4 @@
         tabsize: 2,
         height: 150
     });
-</script>
+</script> -->

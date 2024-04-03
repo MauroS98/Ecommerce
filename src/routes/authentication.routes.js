@@ -14,5 +14,5 @@ router.post('/login', loginValidation, authenticationControllers.loginProcess)
 router.get('/register', register)
 router.post("/register", registerValidation,upload.single("avatar"), registerProcess)
 
-router.get('/users',loginValidation,admin, users)
+router.get('/users',loginValidation, users)
 module.exports = router
