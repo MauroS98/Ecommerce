@@ -1,38 +1,29 @@
 const express = require('express');
 const router = express.Router()
-const multer = require("multer")
-const path = require("path")
 
 const mainControllers = require('../controllers/products.controllers')
-const { create, store, } = require("../controllers/admin.controllers")
+const { create, store,search, } = require("../controllers/admin.controllers");
+const { upload } = require('../middlewares/upload');
+const {editProduct} = require('../controllers/admin.controllers/editProduct.controller');
 
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, path.join(__dirname, '../../public/images/productos'))
-    },
-    filename: function (req, file, cb) {
-        const formatFilename = file.fieldname + '-' + Date.now() + path.extname(file.originalname)
-        cb(null, formatFilename)
-    }
-});
 
-const upload = multer({ storage })
 // "/admin"
 
-router.get("/lista-producto", mainControllers.listProducts);
-
-
+router.get("/lista-producto",mainControllers.listProducts);
+router.get("/search", search);
 router.get("/editar-producto/:id", mainControllers.updateProduct);
-router.put("/editar-producto/:id", mainControllers.editProduct)
-
+router.put('/editar-producto/:id',upload.single("image"),mainControllers.updateProduct)
 router.get('/dashboard', mainControllers.dashboard);
 
-router.get("/crear-producto", mainControllers.create);
+router.get("/crear-producto", checkAdmin ,mainControllers.create);
 
 router.get('/createProduct', mainControllers.createProduct)
-router.post('/crear-producto', upload.single("image"), mainControllers.store);
+router.post('/crear-producto', upload.single("image"),checkAdmin, mainControllers.store);
 
+router.delete("/eliminar-producto/:id", upload.single("image") ,checkAdmin, mainControllers.destroy)
 router.delete("/eliminar-producto/:id", upload.single("image"), mainControllers.destroy)
+// router.get('/createProduct', mainControllers.createProduct)
+
 
 
 

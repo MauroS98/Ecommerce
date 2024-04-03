@@ -4,6 +4,9 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const methodOverride = require("method-override")
+const expressPartials = require('express-partials');
+const session = require("express-session")
+const dataLocals = require("./middlewares/insertDataLocals")
 
 var app = express();
 
@@ -18,11 +21,18 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
 app.use(methodOverride("_method"));
+app.use(session({ secret: "palabra secreta" }))
+app.use(expressPartials());
+app.use(session({secret: "secret message"}))
+app.use(dataLocals)
+
 
 const mainRoutes = require('./routes/main.routes')
 const productRoutes = require('./routes/products.routes')
 const authenticationRoutes = require('./routes/authentication.routes')
 const adminRoutes = require('./routes/admin.routes')
+
+
 
 app.use('/', mainRoutes)
 

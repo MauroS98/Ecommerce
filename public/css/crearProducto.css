@@ -1,18 +1,21 @@
 
-    .container-products-wrapper {
-     
+.container-products-wrapper {
         margin-left: 23%;
     }
-    .form-label {
+.form-label {
         margin-bottom: 2.5rem;
     }
-    .form-p{
-    
+    .form-input{
+        
     }
-    .imagen-secundary{
-
+.div-category{
+    margin-bottom: 12px;
+   
     }
-    .boton{
+.select{
+    margin-bottom: 12px;
+    }
+.boton{
 background-color: blue;
 color:white
     }

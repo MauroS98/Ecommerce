@@ -56,17 +56,15 @@ body .updateProduct{
         border: 1px solid var(--celeste);
         margin-bottom: 8%;
     }
-    .UpdateProduct-title{
+    .mb-4, .my-4 {
+        font-size: 55px;
         text-align: center;
-        font-size: 50px;
+        text-shadow: 1px 2px 2px var(--celeste);
     }
-    .saveButton{
-        text-align: center;
-    }
-    .btn-success {
-        color: #fff;
-        background-color: var(--celeste);
-        border-color: var(--bs-cyan);
+        .btn-primary {
+        margin-left: 33%;
+        width: 34%;
+        font-size: 20px;
     }
 
 }
@@ -102,13 +100,14 @@ body .updateProduct{
         border: 2px solid var(--celeste);
         margin-bottom: 8%;
     }
-    .form-label{
+    .mb-4, .my-4 {
+        font-size: 55px;
+        text-align: center;
+        text-shadow: 1px 2px 2px var(--celeste);
+    }
+        .btn-primary {
+        width: 34%;
         font-size: 20px;
     }
-    .btn-success {
-        color: #fff;
-        background-color: var(--celeste);
-        border-color: var(--bs-cyan);
-    }
-    
+
 }

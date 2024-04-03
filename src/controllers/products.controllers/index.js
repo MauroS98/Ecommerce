@@ -1,20 +1,17 @@
 module.exports = {
     index: require('../main.controllers/index.controller'),
-    cart: require('./cart.controller'),
+    search:require("../main.controllers/search.controller"),
     productDetail: require('./product.detail.controller'),
     login: require('../authentication.controllers/login.controller'),
-    loginProcess: require('../authentication.controllers/loginProcess.controller'),
-    register: require('../authentication.controllers/register'),
-    registerProcess: require('../authentication.controllers/registerProcess.controller'),
+    register: require('../authentication.controllers/register.controller'),
     dashboard: require('../admin.controllers/dashboard.controller'),
     createProduct: require('../admin.controllers/createProduct.controller'),
     updateProduct: require('../admin.controllers/updateProduct.controller'),
     editProduct: require("../admin.controllers/editProduct.controller"),
     listProducts: require('../admin.controllers/listProducts.controller'),
-    header: require('../header.controllers/header.controller'),
-    head: require('../header.controllers/head'),
     create: require("../admin.controllers/create.controller"),
     store:require("../admin.controllers/store.controller"),
     list: require("../products.controllers/list.controller"),
-    destroy: require("../admin.controllers/destroy.controller")
+    destroy: require("../admin.controllers/destroy.controller"),
+    users:require('../authentication.controllers/users.controller')
 }

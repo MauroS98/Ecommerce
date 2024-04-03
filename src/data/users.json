@@ -1,0 +1,64 @@
+[   {
+   "id": 0,
+   "name": "admin",
+   "email": "admin@gmail.com",
+   "password": "admin123",
+   "role": "ADMIN",
+   "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 1,
+      "name": "regular",
+      "email": "regular@gmail.com",
+      "password": "regular123",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 2,
+      "name": "LukeGod",
+      "email": "lucasmaciel10ynine@gmail.com",
+      "password": "$2a$12$G9w9UzM6ZjfCWEn/k6ygXejalqZs3MaZB6q8xwaEBxPQ/KiGNUSFm",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 3,
+      "name": "Esteban",
+      "email": "estebanbassir@gmail.com",
+      "password": "$2a$12$iW6/pJO9N/HD9/Kckw846.XeYIGvyF2KSkJxw26IzwEnj3hwQeiAa",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 4,
+      "name": "LukeGodeto",
+      "email": "lucasmaciel7ynine@gmail.com",
+      "password": "$2a$12$CdKP8DdnacKrFJciK9biUuSLml8zQu/yrAEaRQBLWzElswKIgL2vC",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 5,
+      "name": "lucas",
+      "email": "lucasmaciel9ynine@gmail.com",
+      "password": "$2a$12$TknbI4.5BwQGP/7rd/Q.9.bZBXmzXkeDtA6/ALUosG/KN9/A3Ds22",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 6,
+      "name": "LukeGod",
+      "email": "lucasmaciel12ynine@gmail.com",
+      "password": "$2a$12$VNYWTPkW.bruCnxLjNLGieZz79/kcqGtwQiCDm03Cs7MVqh.9ba32",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   },
+   {
+      "id": 7,
+      "email": "lucasmaciel13ynine@gmail.com",
+      "password": "$2a$12$HQIXwKgaAy0e8HPmDtoc1OgOOJ2mgc6Z0yUmyteTU7ozN6oKuN4aO",
+      "role": "REGULAR",
+      "avatar": "default-avatar.jpg"
+   }
+]
