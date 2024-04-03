@@ -7,6 +7,10 @@
     /* background: var(--grisOscuro); */
     justify-content: center;
 }
+.remember-btn{
+    text-align: center;
+    color: white;
+}
 
 .subtitulo-login {
 
@@ -100,6 +104,10 @@
 
         width: 100%;
     }
+    .remember-btn{
+        text-align: center;
+        color: white
+    }
 
     .subtitulo-login {
 
@@ -146,6 +154,10 @@
 @media (min-width: 769px) {
     .main-login {}
 
+    .remember-btn {
+        text-align: center;
+        color: white
+    }
     .subtitulo-login {
 
         margin-left: 39%;

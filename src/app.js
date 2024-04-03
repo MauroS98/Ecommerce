@@ -7,7 +7,7 @@ const methodOverride = require("method-override")
 const expressPartials = require('express-partials');
 const session = require("express-session")
 const dataLocals = require("./middlewares/insertDataLocals")
-
+const { sessionFormCookie, dataLocalsCookie } = require('./middlewares/validation');
 var app = express();
 
 
@@ -24,13 +24,19 @@ app.use(methodOverride("_method"));
 app.use(session({ secret: "palabra secreta" }))
 app.use(expressPartials());
 app.use(session({secret: "secret message"}))
-app.use(dataLocals)
 
+/* Recordar usuario */
+app.use (sessionFormCookie)
+app.use (dataLocalsCookie)
+//                         //
+
+app.use(dataLocals)
 
 const mainRoutes = require('./routes/main.routes')
 const productRoutes = require('./routes/products.routes')
 const authenticationRoutes = require('./routes/authentication.routes')
-const adminRoutes = require('./routes/admin.routes')
+const adminRoutes = require('./routes/admin.routes');
+
 
 
 
