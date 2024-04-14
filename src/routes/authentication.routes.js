@@ -13,4 +13,6 @@ router.get('/register', register)
 router.post("/register", registerValidation, registerProcess)
 
 router.get('/users',users)
+
+
 module.exports = router
