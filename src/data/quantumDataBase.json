@@ -236,54 +236,6 @@
       ],
       "category": "Placas de Video",
       "price": 773999
-   },
-   {
-      "id": 25,
-      "name": "gabinete",
-      "price": 2333,
-      "description": "bueno con garantia",
-      "category": "gabinetes",
-      "image": "image-1710720280108.jpeg"
-   },
-   {
-      "id": 26,
-      "name": "gabinete",
-      "price": 2333,
-      "description": "bueno con garantia",
-      "category": "gabinetes",
-      "image": "image-1710720337590.jpeg"
-   },
-   {
-      "id": 27,
-      "name": "gabinete",
-      "price": 88888,
-      "description": "hpyope",
-      "category": "gabinetes",
-      "image": "image-1710720574898.jpeg"
-   },
-   {
-      "id": 28,
-      "name": "gabinete",
-      "price": 99999,
-      "description": "miloescopion",
-      "category": "gabinetes",
-      "image": "image-1710720699520.jpeg"
-   },
-   {
-      "id": 29,
-      "name": "gabinete",
-      "price": 99999,
-      "description": "miloescopion",
-      "category": "gabinetes",
-      "image": "image-1710720733236.jpeg"
-   },
-   {
-      "id": 30,
-      "name": "gabinete",
-      "price": 666666,
-      "description": "ggdgfdghgh",
-      "category": "gabinetes",
-      "image": "image-1710799973211.jpeg"
    }
 ]
 

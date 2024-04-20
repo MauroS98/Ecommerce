@@ -18,9 +18,18 @@
                 <div class="button-group">
                     <a href="/products/productDetail">Detalle</a>
                     <a href="/admin/editar-producto/:id<%= p.id %>">Editar</a>
-                    <form action="/admin/eliminar-producto/<%= p.id %>?_method=DELETE" method="post"
+                    <form class="delete-form" action="/admin/eliminar-producto/<%= p.id %>?_method=DELETE" method="post"
                         enctype="multipart/form-data">
-                        <button type="submit" class="">Eliminar</button>
+                        <label for="delete-checkbox<%= p.id %>">Eliminar</label>
+                        <input type="checkbox" id="delete-checkbox<%= p.id %>" class="delete-checkbox">
+                        <div class="alert-delete">
+                            <div class="alert-card-delete">
+                                <h4>Seguro desea eliminar este producto?</h4>
+                                <button type="submit" class="delete-button">Eliminar</button>
+                                <label for="delete-checkbox<%= p.id %>">Cancelar</label>
+                            </div>
+
+                        </div>
                     </form>
                 </div>
             </div>
