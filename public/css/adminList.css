@@ -8,7 +8,8 @@
     border-top: 2px black solid;
     box-sizing: border-box;
     overflow: hidden;
-    margin-left: 19%;
+    margin: auto;
+    position: relative;
 }
 
 .product-list-item img {
@@ -49,7 +50,6 @@
 }
 
 .button-group form {
-
     margin: 4px;
     width: 80%;
     background-color: var(--grisClaro);
@@ -60,4 +60,65 @@
     border-radius: 10px;
 }
 
-.button-group button {border: none;background: transparent;color: var(--totalwhite);}
+.delete-checkbox {
+    display: none;
+}
+
+.delete-checkbox:checked+.alert-delete {
+    height: 200px;
+}
+
+.alert-delete {
+    background-color: rgba(128, 128, 128, 0.6);
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert-card-delete {
+    background-color: var(--grisOscuro);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.alert-card-delete h4 {
+    margin: initial;
+    color: var(--totalwhite);
+    font-size: 18px;
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.alert-card-delete label {
+    color: var(--totalwhite);
+    margin: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--amarillo);
+    width: 25%;
+    height: 30%;
+
+}
+
+.button-group button {
+    color: var(--totalwhite);
+    font-size: 16px;
+    background-color: var(--red);
+    border-radius: 10px;
+    width: 25%;
+    height: 30%;
+}

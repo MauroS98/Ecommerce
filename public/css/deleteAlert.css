@@ -1,0 +1,39 @@
+.delete-form {
+
+}
+
+
+.container-product {
+    width: 80%;
+    height: 400px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+}
+.alerta {
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(128, 128, 128, 0.356);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-alert:checked + .alerta {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container-product label {
+
+}
+.container-product input {
+    display: none;
+}

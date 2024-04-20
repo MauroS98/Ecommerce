@@ -6,5 +6,5 @@ module.exports = (req, res) => {
 
     const products = loadData()
 
-    res.render('index', { products, toThousand })
+    res.render('alertDelete', { products, toThousand })
 }
