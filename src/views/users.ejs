@@ -12,15 +12,15 @@
 				<header>
 					<img src="../../images/avatrar/R2D2.png" alt=" Avatar">
 				</header>
-				<h3>Gaston</h3>
+				<h3><%= locals.errors?.username?.msg%></h3>
 				<p>I am  a good scripter as well , I'm profical at Lua 5.1 game scripting languages. Especially roblox engine , I can help you if you got problem ! </p>
 				<span>BIENVENIDO QUANTUM PC</span>
 			</div>
 			<div class="back">
 				<ul>
                    
-					<li>nombre: </li>
-					<li>email: </li>
+					<li><%= locals.errors?.username?.msg%></li>
+					<li><%= locals.errors?.email?.msg%> </li>
                    
 				</ul>
 			</div>

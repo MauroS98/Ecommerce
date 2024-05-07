@@ -20,10 +20,24 @@
                     <a href="/admin/editar-producto/:id<%= p.id %>">Editar</a>
                     <form action="/admin/eliminar-producto/<%= p.id %>?_method=DELETE" method="post"
                         enctype="multipart/form-data">
-                        <button type="submit" class="">Eliminar</button>
+                        <!-- <button type="submit" class="">Eliminar</button> -->
+                        <button type="button" class="btn btn-danger" onclick="confirmarEliminacionBootstrap(productoId)">Eliminar</button>
+
                     </form>
                 </div>
             </div>
             <% } %>
         </div>
         <% }) %>
+<script>
+function confirmarEliminacionBootstrap(productoId) {
+  $('#modalConfirmacion').modal('show'); // Muestra el modal de confirmación
+  $("#botonConfirmarEliminacion").loadData('productoId', productoId); // Almacena el ID del producto en el botón
+}
+
+$("#botonConfirmarEliminacion").click(function() {
+  var productoId = $(this).loadData('productoId');
+  eliminarProducto(productoId); // Elimina el producto
+  $('#modalConfirmacion').modal('hide'); // Cierra el modal
+});
+</script>

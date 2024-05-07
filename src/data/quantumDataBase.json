@@ -284,5 +284,13 @@
       "description": "ggdgfdghgh",
       "category": "gabinetes",
       "image": "image-1710799973211.jpeg"
+   },
+   {
+      "id": 31,
+      "name": "MEMORIA",
+      "price": 188889,
+      "description": "bueuna",
+      "category": "Memorias Ram",
+      "image": "image-1713296449327.gif"
    }
 ]
